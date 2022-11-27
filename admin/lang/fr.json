@@ -1,0 +1,37 @@
+{
+    "section1Title": "A Propos de Moi",
+    "section2Title": "Je suis bon en Quoi ?",
+    "section2Desc": "J'ai suivi des formations professionnel ainsi qu'une application des domaines suivants",
+    "section3Title": "Mes Realisations",
+    "section3Desc": "J'ai realisé avec mes savoirs faires les projets suivants avec precision et efficacité.",
+    "section4Title": "Me Contacter",
+    "section4Desc": "Veillez renseignez le formulaire suivant pour me contacter",
+    "job": "Developpeur d'application",
+    "about": " Je me nomme Kabirou ALASSANE, j'ai suivi...Donec tristique feugiat lacus, at sollicitudin nunc euismod sed. Mauris viverra, erat non sagittis gravida,elit dui mollis ante, sit amet eleifend puru",
+    "about1Title": "Cursus De Lyceen",
+    "about1Content": "Du CEG3 Natitingou au Lycee .............",
+    "about2Title": "Vie de Developpeur Web & Mobile",
+    "about2Content": "15ans d'experience et de ...............jbfe,bjvksvhjr ewj",
+    "knowledge": [
+        {
+            "picClass": "fa-code",
+            "title": "Conception Web",
+            "desc": "Phasellus non convallis dolor. Integer tempor hendrerit arcu at bibendum. Sed ac ante non metus vehicula congue quis eget eros."
+        },
+        {
+            "picClass": "fa-android",
+            "title": "Developpeur Android",
+            "desc": "Phasellus non convallis dolor. Integer tempor hendrerit arcu at bibendum. Sed ac ante non metus vehicula congue quis eget eros."
+        },
+        {
+            "picClass": "fa-pencil",
+            "title": "UX/UI",
+            "desc": "Phasellus non convallis dolor. Integer tempor hendrerit arcu at bibendum. Sed ac ante non metus vehicula congue quis eget eros."
+        },
+        {
+            "picClass": "fa-github",
+            "title": "Web Coding",
+            "desc": "Phasellus non convallis dolor. Integer tempor hendrerit arcu at bibendum. Sed ac ante non metus vehicula congue quis eget eros."
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "section1Title": "About Me",
+    "section2Title": "What I’m good at ?",
+    "section2Desc": "Curabitur leo felis, rutrum vitae rightius eu, malesuada a tortor. Vestibulum congue leo et tellus aliquam, eu viverra nulla semper. Nullam eu faucibus diam. Donec eget massa ante.",
+    "section3Title": "My Work",
+    "section3Desc": "Aenean sollicitudin ex mauris, lobortis lobortis diam euismod sit amet. Duis ac elit vulputate, lobortis arcu quis, vehicula mauris.",
+    "section4Title": "Contact Me",
+    "section4Desc": "Fusce eget nibh nec justo interdum condimentum. Morbi justo ex, efficitur at ante ac, tincidunt maximus ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "job": "Web Full Stack Developer",
+    "about": "My name's Kabirou Hassane et My name's Kabirou Hassane et My name's Kabirou Hassane et My name's Kabirou Hassane et My name's Kabirou Hassane et My name's Kabirou Hassane et My name's Kabirou Hassane et My name's Kabirou Hassane et My name's Kabirou Hassane et My name's Kabirou Hassane et My name's Kabirou Hassane et My name's Kabirou Hassane et ",
+    "about1Title": "About Me Sec 1",
+    "about1Content": " Donec tristique feugiat lacus, at sollicitudin nunc euismod sed. Mauris viverra, erat non sagittis gravida,elit dui mollis ante, sit amet eleifend purus ligula eget eros. Sed tincidunt quam vitae neque pharetra dignissim eget ut libero.",
+    "about2Title": "About Me Sec 1",
+    "about2Content": " Donec tristique feugiat lacus, at sollicitudin nunc euismod sed. Mauris viverra, erat non sagittis gravida,elit dui mollis ante, sit amet eleifend purus ligula eget eros. Sed tincidunt quam vitae neque pharetra dignissim eget ut libero.",
+    "knowledge": [
+        {
+            "picClass": "fa-github",
+            "title": "Web Coding",
+            "desc": "Phasellus non convallis dolor. Integer tempor hendrerit arcu at bibendum. Sed ac ante non metus vehicula congue quis eget eros."
+        },
+        {
+            "picClass": "fa-github",
+            "title": "UIX Design",
+            "desc": "Phasellus non convallis dolor. Integer tempor hendrerit arcu at bibendum. Sed ac ante non metus vehicula congue quis eget eros."
+        },
+        {
+            "picClass": "fa-github",
+            "title": "Web Coding",
+            "desc": "Phasellus non convallis dolor. Integer tempor hendrerit arcu at bibendum. Sed ac ante non metus vehicula congue quis eget eros."
+        },
+        {
+            "picClass": "fa-github",
+            "title": "Web Coding",
+            "desc": "Phasellus non convallis dolor. Integer tempor hendrerit arcu at bibendum. Sed ac ante non metus vehicula congue quis eget eros."
+        }
+    ]
+}

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
+  <title>Kabirou ALASSANE | About me</title>
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/fontawesome.css" />
+  <link rel="stylesheet" href="assets/css/templatemo-style.css" />
+  <link rel="stylesheet" href="assets/css/owl.css" />
+  <link rel="stylesheet" href="assets/css/lightbox.css" />
+  <script src="https://cdn.dev/axios/axios.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <div id="page-wraper">
+      <div class="responsive-nav">
+        <i class="fa fa-bars" id="menu-toggle"></i>
+        <div id="menu" class="menu">
+          <i class="fa fa-times" id="menu-close"></i>
+          <div class="container">
+            <div class="image">
+              <a href="javascript:void(0)"><img :src="data.profilePic" :alt="data.name" /></a>
+            </div>
+            <div class="author-content">
+              <h4>{{ data.name }}</h4>
+              <span> {{ data.job }} </span>
+            </div>
+            <nav class="main-nav" role="navigation">
+              <ul class="main-menu">
+                <li><a href="#section1"> {{ data.section1Title }} </a></li>
+                <li><a href="#section2"> {{ data.section2Title }} </a></li>
+                <li><a href="#section3"> {{ data.section3Title }} </a></li>
+                <li><a href="#section4"> {{ data.section4Title }} </a></li>
+              </ul>
+            </nav>
+            <div class="social-network">
+              <ul class="soial-icons">
+                <li>
+                  <a :href="`tel:` + data.phone"><i class="fa fa-phone"></i></a>
+                </li>
+                <li v-for="k in data.social">
+                  <a :href="k.url" :title="k.name"><i :class="`fa fa-${k.name.toLowerCase()}`"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="lang mt-4">
+              <select name="lang mx-auto" style="width: 50%" v-model="lang" @change="select">
+                <option value="fr">French</option>
+                <option value="en">English</option>
+              </select>
+            </div>
+            <div class="copyright-text">
+              <p>Copyright 2022 Kabirou Alassane</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="section about-me" data-section="section1">
+        <div class="container">
+          <div class="section-heading">
+            <h2> {{ data.section1Title }} </h2>
+            <div class="line-dec"></div>
+            <span> {{ data.about }} </span>
+          </div>
+          <div class="left-image-post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="left-image">
+                  <img :src="data.about1Pic" :alt="data.about1Title" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="right-text">
+                  <h4> {{ data.about1Title }} </h4>
+                  <p> {{ data.about1Content }} </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-image-post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="left-text">
+                  <h4> {{ data.about2Title }} </h4>
+                  <p> {{ data.about2Content }} </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="right-image">
+                  <img :src="data.about2Pic" :alt="data.about2Title" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section my-services" data-section="section2">
+        <div class="container">
+          <div class="section-heading">
+            <h2>{{ data.section2Title }}</h2>
+            <div class="line-dec"></div>
+            <span> {{ data.section2Desc }} </span>
+          </div>
+          <div class="row">
+            <div class="col-md-6" v-for="k in data.knowledge">
+              <div class="service-item">
+                <div class="fa fa-4x my-2 text-danger" :class="k.picClass"></div>
+                <h4> {{ k.title }} </h4>
+                <p> {{ k.desc }} </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section my-work" data-section="section3">
+        <div class="container">
+          <div class="section-heading">
+            <h2>{{ data.section3Title }}</h2>
+            <div class="line-dec"></div>
+            <span> {{ data.section3Desc }} </span>
+          </div>
+          <div class="row">
+            <div class="isotope-wrapper">
+              <form class="isotope-toolbar">
+                <label><input type="radio" data-type="*" checked="" name="isotope-filter" />
+                  <span>all</span></label>
+                <label v-for="(r, k) in data.works">
+                  <input type="radio" :data-type="k" name="isotope-filter" />
+                  <span> {{ k }} </span>
+                </label>
+              </form>
+              <div class="isotope-box">
+                <div v-for="(n, k) in data.works">
+                  <div v-for="r in n" class="isotope-item" :data-type="k" class="h-100">
+                    <figure class="snip1321">
+                      <img :src="r.pic" :alt="r.name" class="h-100 w-100" />
+                      <figcaption>
+                        <a :href=" r.pic" data-lightbox="image-1" :data-title="r.name"><i class="fa fa-search"></i></a>
+                        <h4> {{ r.name }} </h4>
+                        <span> {{ r.desc }} </span>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-me" data-section="section4">
+        <div class="container">
+          <div class="section-heading">
+            <h2>{{ data.section4Title }}</h2>
+            <div class="line-dec"></div>
+            <span> {{ data.section4Desc }} </span>
+          </div>
+          <div class="row">
+            <div class="right-content">
+              <div class="container">
+                <form id="contact" action="" method="post">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <fieldset>
+                        <input name="name" type="text" class="form-control" id="name" placeholder="Your name..."
+                          required="" />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-6">
+                      <fieldset>
+                        <input name="email" type="text" class="form-control" id="email" placeholder="Your email..."
+                          required="" />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject..."
+                          required="" />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <textarea name="message" rows="6" class="form-control" id="message"
+                          placeholder="Your message..." required=""></textarea>
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <button type="submit" id="form-submit" class="button">
+                          Send Message
+                        </button>
+                      </fieldset>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.dev/vue/vue.global.js"></script>
+  <script src="assets/js/app.vue.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/lightbox.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script>
+    //according to loftblog tut
+    $(".main-menu li:first").addClass("active");
+
+    var showSection = function showSection(section, isAnimate) {
+      var direction = section.replace(/#/, ""),
+        reqSection = $(".section").filter(
+          '[data-section="' + direction + '"]'
+        ),
+        reqSectionPos = reqSection.offset().top - 0;
+
+      if (isAnimate) {
+        $("body, html").animate(
+          {
+            scrollTop: reqSectionPos
+          },
+          800
+        );
+      } else {
+        $("body, html").scrollTop(reqSectionPos);
+      }
+    };
+
+    var checkSection = function checkSection() {
+      $(".section").each(function () {
+        var $this = $(this),
+          topEdge = $this.offset().top - 80,
+          bottomEdge = topEdge + $this.height(),
+          wScroll = $(window).scrollTop();
+        if (topEdge < wScroll && bottomEdge > wScroll) {
+          var currentId = $this.data("section"),
+            reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+          reqLink
+            .closest("li")
+            .addClass("active")
+            .siblings()
+            .removeClass("active");
+        }
+      });
+    };
+
+    $(".main-menu").on("click", "a", function (e) {
+      e.preventDefault();
+      showSection($(this).attr("href"), true);
+    });
+
+    $(window).scroll(function () {
+      checkSection();
+    });
+  </script>
+</body>
+
+</html>

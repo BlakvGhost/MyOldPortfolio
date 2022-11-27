@@ -1,0 +1,67 @@
+{
+    "name": "Kabirou ALASSANE",
+    "phone": "+22995181019",
+    "profilePic": "https://futuravisionapi.dev/storage/user/kabirou-hassane-2022-07-25-11-02-23.jpg",
+    "about1Pic": "https://futuravisionapi.dev/storage/gallery/js.png",
+    "about2Pic": "https://futuravisionapi.dev/storage/gallery/screenshot.png",
+    "social": [
+        {
+            "name": "Facebook",
+            "url": "https://facebook.com/kabirou.alassane"
+        },
+        {
+            "name": "Twitter",
+            "url": "https://facebook.com/kabirou.alassane"
+        },
+        {
+            "name": "GitHub",
+            "url": "https://facebook.com/kabirou.alassane"
+        },
+        {
+            "name": "Linkedin",
+            "url": "https://facebook.com/kabirou.alassane"
+        }
+    ],
+    "works": {
+        "codeIgniter": [
+            {
+                "pic": "https://futuravisionapi.dev/storage/gallery/screenshot.png",
+                "name": "Neptune"
+            },
+            {
+                "pic": "https://futuravisionapi.dev/storage/gallery/banner.jpg",
+                "name": "FuturaVision"
+            }
+        ],
+        "NodeJS": [
+            {
+                "pic": "https://futuravisionapi.dev/storage/gallery/une-equipe.jpg",
+                "name": "gTube"
+            },
+            {
+                "pic": "https://futuravisionapi.dev/storage/gallery/windows-11.png",
+                "name": "Neptune"
+            }
+        ],
+        "Laravel": [
+            {
+                "pic": "https://futuravisionapi.dev/storage/gallery/js.png",
+                "name": "Neptune"
+            },
+            {
+                "pic": "https://futuravisionapi.dev/storage/gallery/new-york.jpg",
+                "name": "Neptune"
+            }
+        ],
+        "App": [
+            {
+                "pic": "https://futuravisionapi.dev/storage/gallery/cv.png",
+                "name": "Neptune"
+            },
+            {
+                "pic": "https://futuravisionapi.dev/storage/gallery/robot-ai.jpg",
+                "name": "Neptune"
+            }
+        ]
+    }
+}
