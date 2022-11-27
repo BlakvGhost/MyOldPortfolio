@@ -1,65 +1,65 @@
 {
     "name": "Kabirou ALASSANE",
     "phone": "+22995181019",
-    "profilePic": "https://firebasestorage.googleapis.com/v0/b/futura-vision.appspot.com/o/hassane-kabirou-2022-07-25-10-44-02.jpg?alt=media&token=062659c9-ffa1-42b6-8e9d-0a622c456c46",
-    "about1Pic": "https://futuravisionapi.dev/storage/gallery/js.png",
-    "about2Pic": "https://futuravisionapi.dev/storage/gallery/screenshot.png",
+    "profilePic": "https://firebasestorage.googleapis.com/v0/b/futura-vision.appspot.com/o/kabir.jpg?alt=media&token=088743af-1095-4069-bf83-c3a30438df0b",
+    "about1Pic": "https://firebasestorage.googleapis.com/v0/b/futura-vision.appspot.com/o/js.png?alt=media&token=d1ef6ddc-f73e-435b-999a-f4e1fd46997d
+    "about2Pic": "https://firebasestorage.googleapis.com/v0/b/futura-vision.appspot.com/o/screenshot.png?alt=media&token=c1bf5ac8-4631-4877-9a1d-a638a330609d",
     "social": [
         {
             "name": "Facebook",
-            "url": "https://facebook.com/kabirou.alassane"
+            "url": "https://www.facebook.com/g4l1l30.77/"
         },
         {
             "name": "Twitter",
-            "url": "https://facebook.com/kabirou.alassane"
+            "url": "https://twitter.com/g4l1l30_77"
         },
         {
             "name": "GitHub",
-            "url": "https://facebook.com/kabirou.alassane"
+            "url": "https://github.com/BlakvGhost"
         },
         {
             "name": "Linkedin",
-            "url": "https://facebook.com/kabirou.alassane"
+            "url": "https://www.linkedin.com/in/kabirou-alassane-11293524a/"
         }
     ],
     "works": {
         "codeIgniter": [
             {
-                "pic": "https://futuravisionapi.dev/storage/gallery/screenshot.png",
+                "pic": "https://firebasestorage.googleapis.com/v0/b/futura-vision.appspot.com/o/screenshot.png?alt=media&token=c1bf5ac8-4631-4877-9a1d-a638a330609d",
                 "name": "Neptune"
             },
             {
-                "pic": "https://futuravisionapi.dev/storage/gallery/banner.jpg",
+                "pic": "https://firebasestorage.googleapis.com/v0/b/futura-vision.appspot.com/o/banner.jpg?alt=media&token=d528a52b-1d12-4f6e-9858-2e3215ee1653",
                 "name": "FuturaVision"
             }
         ],
         "NodeJS": [
             {
-                "pic": "https://futuravisionapi.dev/storage/gallery/une-equipe.jpg",
+                "pic": "https://firebasestorage.googleapis.com/v0/b/futura-vision.appspot.com/o/une-equipe.jpg?alt=media&token=7b9a4ceb-8cc9-4e1c-a636-c18765df6129",
                 "name": "gTube"
             },
             {
-                "pic": "https://futuravisionapi.dev/storage/gallery/windows-11.png",
+                "pic": "https://firebasestorage.googleapis.com/v0/b/futura-vision.appspot.com/o/windows-11.jpg?alt=media&token=eacd9ecf-8b51-4b3e-9a66-7b2982c18d96",
                 "name": "Neptune"
             }
         ],
         "Laravel": [
             {
-                "pic": "https://futuravisionapi.dev/storage/gallery/js.png",
+                "pic": "https://firebasestorage.googleapis.com/v0/b/futura-vision.appspot.com/o/js.png?alt=media&token=d1ef6ddc-f73e-435b-999a-f4e1fd46997d",
                 "name": "Neptune"
             },
             {
-                "pic": "https://futuravisionapi.dev/storage/gallery/new-york.jpg",
+                "pic": "https://firebasestorage.googleapis.com/v0/b/futura-vision.appspot.com/o/new-york.jpg?alt=media&token=1c3560c8-49c2-4841-beaa-7b0937381a59",
                 "name": "Neptune"
             }
         ],
         "App": [
             {
-                "pic": "https://futuravisionapi.dev/storage/gallery/cv.png",
+                "pic": "https://firebasestorage.googleapis.com/v0/b/futura-vision.appspot.com/o/structured.jpg?alt=media&token=a24febd1-3ddb-4d97-bb1f-49e0ac9ac4fc",
                 "name": "Neptune"
             },
             {
-                "pic": "https://futuravisionapi.dev/storage/gallery/robot-ai.jpg",
+                "pic": "https://firebasestorage.googleapis.com/v0/b/futura-vision.appspot.com/o/robot-ai.jpg?alt=media&token=f45e8a64-4d56-4615-8ee9-aa4ca83adc6f",
                 "name": "Neptune"
             }
         ]
