@@ -295,7 +295,7 @@ html {
 }
 
 .section-heading {
-    text-align: left;
+    text-align: justify;
     padding: 80px 5px;
 }
 
@@ -750,7 +750,7 @@ section.contact-me {
         display: inline-block;
     }    
 
-    .menu {        
+    .menu {  
         width: 320px;
         -webkit-transform: translateX(-100%) !important;
         transform: translateX(-100%) !important;
