@@ -24,6 +24,8 @@ const app = Vue.createApp({
         this.lang =
             location.search.length <= 1 ? "fr" : location.search.split("?")[1];
         this.getInfo();
+    },
+    updated() {
         $(".owl-carousel").owlCarousel({
             items: 4,
             lazyLoad: true,
