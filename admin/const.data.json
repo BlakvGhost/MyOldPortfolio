@@ -26,41 +26,49 @@
         "codeIgniter": [
             {
                 "pic": "https://firebasestorage.googleapis.com/v0/b/futura-vision.appspot.com/o/screenshot.png?alt=media&token=c1bf5ac8-4631-4877-9a1d-a638a330609d",
-                "name": "Neptune"
+                "name": "Neptune",
+                "desc": "Application for detail"
             },
             {
                 "pic": "https://firebasestorage.googleapis.com/v0/b/futura-vision.appspot.com/o/banner.jpg?alt=media&token=d528a52b-1d12-4f6e-9858-2e3215ee1653",
-                "name": "FuturaVision"
+                "name": "FuturaVision",
+                "desc": "Application for detail"
             }
         ],
         "NodeJS": [
             {
                 "pic": "https://firebasestorage.googleapis.com/v0/b/futura-vision.appspot.com/o/une-equipe.jpg?alt=media&token=7b9a4ceb-8cc9-4e1c-a636-c18765df6129",
-                "name": "gTube"
+                "name": "gTube",
+                "desc": "Application for detail"
             },
             {
                 "pic": "https://firebasestorage.googleapis.com/v0/b/futura-vision.appspot.com/o/windows-11.jpg?alt=media&token=eacd9ecf-8b51-4b3e-9a66-7b2982c18d96",
-                "name": "Neptune"
+                "name": "Neptune",
+                "desc": "Application for detail"
             }
         ],
         "Laravel": [
             {
                 "pic": "https://firebasestorage.googleapis.com/v0/b/futura-vision.appspot.com/o/js.png?alt=media&token=d1ef6ddc-f73e-435b-999a-f4e1fd46997d",
-                "name": "Neptune"
+                "name": "Neptune",
+                "desc": "Application for detail"
             },
             {
                 "pic": "https://firebasestorage.googleapis.com/v0/b/futura-vision.appspot.com/o/new-york.jpg?alt=media&token=1c3560c8-49c2-4841-beaa-7b0937381a59",
-                "name": "Neptune"
+                "name": "Neptune",
+                "desc": "Application for detail"
             }
         ],
         "App": [
             {
                 "pic": "https://firebasestorage.googleapis.com/v0/b/futura-vision.appspot.com/o/structured.jpg?alt=media&token=a24febd1-3ddb-4d97-bb1f-49e0ac9ac4fc",
-                "name": "Neptune"
+                "name": "Neptune",
+                "desc": "Application for detail"
             },
             {
                 "pic": "https://firebasestorage.googleapis.com/v0/b/futura-vision.appspot.com/o/robot-ai.jpg?alt=media&token=f45e8a64-4d56-4615-8ee9-aa4ca83adc6f",
-                "name": "Neptune"
+                "name": "Neptune",
+                "desc": "Application for detail"
             }
         ]
     }
