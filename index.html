@@ -8,22 +8,42 @@
   <meta name="author" content="Kabirou ALASSANE" />
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
   <title>Kabirou ALASSANE | About Me</title>
-  <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/futura-vision.appspot.com/o/kabir.jpg?alt=media&token=088743af-1095-4069-bf83-c3a30438df0b">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha512-c8AIFmn4e0WZnaTOCXTOLzR+uIrTELY9AeIuUq6ODGaO619BjqG2rhiv/y6dIdmM7ba+CpzMRkkztMPXfVBm9g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" integrity="sha512-i8+QythOYyQke6XbStjt9T4yQHhhM+9Y9yTY1fOxoDQwsQpKMEpIoSQZ8mVomtnVCf9PBvoQDnKl06gGOOD19Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon"
+    href="https://firebasestorage.googleapis.com/v0/b/futura-vision.appspot.com/o/kabir.jpg?alt=media&token=088743af-1095-4069-bf83-c3a30438df0b">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha512-c8AIFmn4e0WZnaTOCXTOLzR+uIrTELY9AeIuUq6ODGaO619BjqG2rhiv/y6dIdmM7ba+CpzMRkkztMPXfVBm9g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
+    integrity="sha512-i8+QythOYyQke6XbStjt9T4yQHhhM+9Y9yTY1fOxoDQwsQpKMEpIoSQZ8mVomtnVCf9PBvoQDnKl06gGOOD19Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="assets/css/templatemo-style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" integrity="sha512-ZKX+BvQihRJPA8CROKBhDNvoc2aDMOdAlcm7TUQY+35XYtrd3yh95QOOhsPDQY9QnKE0Wqag9y38OIgEvb88cA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.0/axios.min.js" integrity="sha512-OdkysyYNjK4CZHgB+dkw9xQp66hZ9TLqmS2vXaBrftfyJeduVhyy1cOfoxiKdi4/bfgpco6REu6Rb+V2oVIRWg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- Google tag (gtag.js) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
+    integrity="sha512-ZKX+BvQihRJPA8CROKBhDNvoc2aDMOdAlcm7TUQY+35XYtrd3yh95QOOhsPDQY9QnKE0Wqag9y38OIgEvb88cA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.0/axios.min.js"
+    integrity="sha512-OdkysyYNjK4CZHgB+dkw9xQp66hZ9TLqmS2vXaBrftfyJeduVhyy1cOfoxiKdi4/bfgpco6REu6Rb+V2oVIRWg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-R28JTD62L2"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'G-R28JTD62L2');
   </script>
+  <style>
+    .setImg {
+      max-width: 300px;
+      max-height: 200px;
+    }
+  </style>
 </head>
 
 <body>
@@ -47,6 +67,7 @@
                 <li><a href="#section2"> {{ data.section2Title }} </a></li>
                 <li><a href="#section3"> {{ data.section3Title }} </a></li>
                 <li><a href="#section4"> {{ data.section4Title }} </a></li>
+                <li><a href="assets/my-resume.pdf" download> {{ data.resumeTitle }} </a></li>
               </ul>
             </nav>
             <div class="social-network">
@@ -79,33 +100,76 @@
             <div class="line-dec"></div>
             <span> {{ data.about }} </span>
           </div>
-          <div class="left-image-post">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="left-image">
-                  <img :src="data.about1Pic" :alt="data.about1Title" />
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="right-text">
-                  <h4 class="text-center"> {{ data.about1Title }} </h4>
-                  <p> {{ data.about1Content }} </p>
-                </div>
+          <div class="mt-4">
+            <h3 class="text-center">Technologies</h3>
+            <div>
+              <h4>JavaScript</h4>
+              <div class="progress my-3">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%" aria-valuenow="70"
+                  aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
-          </div>
-          <div class="right-image-post">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="left-text">
-                  <h4 class="text-center"> {{ data.about2Title }} </h4>
-                  <p> {{ data.about2Content }} </p>
-                </div>
+            <div>
+              <h4>PHP</h4>
+              <div class="progress my-3">
+                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" style="width: 60%" aria-valuenow="60"
+                  aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-              <div class="col-md-6">
-                <div class="right-image">
-                  <img :src="data.about2Pic" :alt="data.about2Title" />
-                </div>
+            </div>
+            <div>
+              <h4>Python/Django</h4>
+              <div class="progress my-3">
+                <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div>
+              <h4>NodeJS</h4>
+              <div class="progress my-3">
+                <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="50"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div>
+              <h4>VueJS</h4>
+              <div class="progress my-3">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="80"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div>
+              <h4>Laravel</h4>
+              <div class="progress my-3">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div>
+              <h4>Angular</h4>
+              <div class="progress my-3">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div>
+              <h4>TypeScript</h4>
+              <div class="progress my-3">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div>
+              <h4>Kotlin</h4>
+              <div class="progress my-3">
+                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="50"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div>
+              <h4>Ionic</h4>
+              <div class="progress my-3">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 60%" aria-valuenow="60"
+                  aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
           </div>
@@ -114,7 +178,7 @@
 
       <section class="section my-services" data-section="section2">
         <div class="container">
-          <div class="section-heading">
+          <div class="section-heading text-center">
             <h2 class="text-center">{{ data.section2Title }}</h2>
             <div class="line-dec"></div>
             <span> {{ data.section2Desc }} </span>
@@ -143,33 +207,128 @@
               <form class="isotope-toolbar">
                 <label><input type="radio" data-type="*" checked="" name="isotope-filter" />
                   <span>all</span></label>
-                <label v-for="(r, k) in data.works">
-                  <input type="radio" :data-type="k" name="isotope-filter" />
-                  <span> {{ k }} </span>
-                </label>
+                <label><input type="radio" data-type="PHP" name="isotope-filter" />
+                  <span>PHP</span></label>
+                <label><input type="radio" data-type="Laravel" name="isotope-filter" />
+                  <span>Laravel</span></label>
+                <label><input type="radio" data-type="Django" name="isotope-filter" />
+                  <span>Python/Django</span></label>
+                <label><input type="radio" data-type="VueJS" name="isotope-filter" />
+                  <span>VueJS</span></label>
+                <label><input type="radio" data-type="JavaScript" name="isotope-filter" />
+                  <span>JavaScript</span></label>
               </form>
               <div class="isotope-box">
-                <div v-for="(n, k) in data.works">
-                  <div v-for="r in n" class="isotope-item" :data-type="k" class="h-100">
-                    <figure class="snip1321">
-                      <img :src="r.pic" :alt="r.name" class="h-100 w-100" />
+                <div class="isotope-item" data-type="PHP">
+                  <figure class="snip1321">
+                    <a href="https://github.com/BlakvGhost/gGallery.git">
+                      <img src="assets/projects/gGallery.png" alt="sq-sample26" class="setImg" />
                       <figcaption>
-                        <a :href=" r.pic" data-lightbox="image-1" :data-title="r.name"><i class="fa fa-search"></i></a>
-                        <h4> {{ r.name }} </h4>
-                        <span> {{ r.desc }} </span>
+                        <a href="assets/projects/gGallery.png" data-lightbox="image-1" data-title="gGallery"><i
+                            class="fa fa-search"></i></a>
+                        <h4>gGallery</h4>
+                        <span>A small web application written in PHP working as a web gallery, for storing images,
+                          videos, documents...with upload system without reloading the page.</span>
                       </figcaption>
+                    </a>
+                  </figure>
+                </div>
+                <div class="isotope-box">
+                  <div class="isotope-item" data-type="Laravel">
+                    <figure class=" snip1321">
+                      <a href="https://github.com/BlakvGhost/Neptune.git">
+                        <img src="assets/projects/neptune.png" alt="sq-sample26" class="setImg" />
+                        <figcaption>
+                          <a href="assets/projects/neptune.png" data-lightbox="image-1" data-title="Neptune"><i
+                              class="fa fa-search"></i></a>
+                          <h4>Neptune</h4>
+                          <span>Une application web de gestion de stock avec systeme de facturation automatique</span>
+                        </figcaption>
+                      </a>
                     </figure>
                   </div>
+                </div>
+                <div class="isotope-item" data-type="Django">
+                  <figure class="snip1321">
+                    <a href="https://github.com/BlakvGhost/ltnConduiteApp.git">
+                      <img src="assets/projects/ltnConduite.png" alt="sq-sample26" class="setImg" />
+                      <figcaption>
+                        <a href="assets/projects/ltnConduite.png" data-lightbox="image-1" data-title="ltnConduite"><i
+                            class="fa fa-search"></i></a>
+                        <h4>ltnConduite</h4>
+                        <span>
+                          A small web application designed for the first time on behalf of the Lycée Technique de
+                          Natitingou for the vote of the pipes by teachers for each class.
+                        </span>
+                      </figcaption>
+                    </a>
+                  </figure>
+                </div>
+                <div class="isotope-item" data-type="VueJS">
+                  <figure class="snip1321">
+                    <a href="https://github.com/BlakvGhost/futura-vision.git">
+                      <img src="assets/projects/GitHub_Logo_White.png" alt="sq-sample26" class="setImg" />
+                      <figcaption>
+                        <a href="https://github.com/BlakvGhost/futura-vision.git"><i class="fa fa-search"></i></a>
+                        <h4>futura-vision</h4>
+                        <span>
+                          Site de vitrine de FuturaVision ecrit en Vue.js
+                        </span>
+                      </figcaption>
+                    </a>
+                  </figure>
+                </div>
+                <div class="isotope-item" data-type="Laravel">
+                  <figure class="snip1321">
+                    <a href="https://github.com/BlakvGhost/futura-vision-api.git">
+                      <img src="assets/projects/GitHub_Logo.png" alt="sq-sample26" class="setImg" />
+                      <figcaption>
+                        <a href="https://github.com/BlakvGhost/futura-vision-api.git"><i class="fa fa-search"></i></a>
+                        <h4>futura-vision API</h4>
+                        <span>
+                          API du site futura-vision
+                        </span>
+                      </figcaption>
+                    </a>
+                  </figure>
+                </div>
+                <div class="isotope-item" data-type="JavaScript">
+                  <figure class="snip1321">
+                    <a href="https://github.com/BlakvGhost/gCalc.git">
+                      <img src="assets/projects/gCalc.png" alt="sq-sample26" class="setImg" />
+                      <figcaption>
+                        <a href="assets/projects/gCalc.png" data-lightbox="image-1" data-title="gCalc"><i
+                            class="fa fa-search"></i></a>
+                        <h4>gCalc</h4>
+                        <span>
+                          JavaScript Calculator
+                        </span>
+                      </figcaption>
+                    </a>
+                  </figure>
+                </div>
+                <div class="isotope-item" data-type="JavaScript">
+                  <figure class="snip1321">
+                    <a href="https://github.com/BlakvGhost/gModuls.git">
+                      <img src="assets/projects/GitHub_Logo_White.png" alt="sq-sample26" class="setImg" />
+                      <figcaption>
+                        <a href="https://github.com/BlakvGhost/gModuls.git"><i class="fa fa-search"></i></a>
+                        <h4>gModuls</h4>
+                        <span>
+                          Une librairie JavaScript ES6
+                        </span>
+                      </figcaption>
+                    </a>
+                  </figure>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-
       <section class="section contact-me" data-section="section4">
         <div class="container">
-          <div class="section-heading">
+          <div class="section-heading text-center">
             <h2 class="text-center">{{ data.section4Title }}</h2>
             <div class="line-dec"></div>
             <span> {{ data.section4Desc }} </span>
@@ -219,13 +378,25 @@
       </section>
     </div>
   </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.bundle.min.js" integrity="sha512-uo0BDK5V972jjjo8Z0vohOa6WOTIPaRGPI/Pg3GLzErcfOK8bkZpY3aHfG1WwS2uZ6cJ6GcrRiO4mRCJjGWOhQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.global.prod.min.js" integrity="sha512-3CesFAr6COyDB22AiVG2erk2moD1FeL3VMx6UezptTW3qmYdcQhfv6yDGmH4ICNTxd0Rs2AbMQ0Q5lG7J/8n3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+    integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.bundle.min.js"
+    integrity="sha512-uo0BDK5V972jjjo8Z0vohOa6WOTIPaRGPI/Pg3GLzErcfOK8bkZpY3aHfG1WwS2uZ6cJ6GcrRiO4mRCJjGWOhQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.global.prod.min.js"
+    integrity="sha512-3CesFAr6COyDB22AiVG2erk2moD1FeL3VMx6UezptTW3qmYdcQhfv6yDGmH4ICNTxd0Rs2AbMQ0Q5lG7J/8n3Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="assets/js/app.vue.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js" integrity="sha512-k2GFCTbp9rQU412BStrcD/rlwv1PYec9SNrkbQlo6RZCf75l6KcC3UwDY8H5n5hl4v77IDtIPwOk9Dqjs/mMBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+    integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"
+    integrity="sha512-k2GFCTbp9rQU412BStrcD/rlwv1PYec9SNrkbQlo6RZCf75l6KcC3UwDY8H5n5hl4v77IDtIPwOk9Dqjs/mMBQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="assets/js/custom.js"></script>
   <script>
     //according to loftblog tut
@@ -239,8 +410,7 @@
         reqSectionPos = reqSection.offset().top - 0;
 
       if (isAnimate) {
-        $("body, html").animate(
-          {
+        $("body, html").animate({
             scrollTop: reqSectionPos
           },
           800

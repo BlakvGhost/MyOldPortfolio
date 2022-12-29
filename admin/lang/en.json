@@ -1,37 +1,34 @@
 {
     "section1Title": "About Me",
     "section2Title": "What I’m good at ?",
-    "section2Desc": "Curabitur leo felis, rutrum vitae rightius eu, malesuada a tortor. Vestibulum congue leo et tellus aliquam, eu viverra nulla semper. Nullam eu faucibus diam. Donec eget massa ante.",
+    "section2Desc": "I have followed professional training as well as an application in the following areas",
     "section3Title": "My Work",
-    "section3Desc": "Aenean sollicitudin ex mauris, lobortis lobortis diam euismod sit amet. Duis ac elit vulputate, lobortis arcu quis, vehicula mauris.",
+    "section3Desc": "Here are some recent projects, please consult my GitHub repository to have all of my projects..",
     "section4Title": "Contact Me",
-    "section4Desc": "Fusce eget nibh nec justo interdum condimentum. Morbi justo ex, efficitur at ante ac, tincidunt maximus ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "job": "Web Full Stack Developer",
-    "about": "My name's Kabirou Hassane et My name's Kabirou Hassane et My name's Kabirou Hassane et My name's Kabirou Hassane et My name's Kabirou Hassane et My name's Kabirou Hassane et My name's Kabirou Hassane et My name's Kabirou Hassane et My name's Kabirou Hassane et My name's Kabirou Hassane et My name's Kabirou Hassane et My name's Kabirou Hassane et ",
-    "about1Title": "About Me Sec 1",
-    "about1Content": " Donec tristique feugiat lacus, at sollicitudin nunc euismod sed. Mauris viverra, erat non sagittis gravida,elit dui mollis ante, sit amet eleifend purus ligula eget eros. Sed tincidunt quam vitae neque pharetra dignissim eget ut libero.",
-    "about2Title": "About Me Sec 1",
-    "about2Content": " Donec tristique feugiat lacus, at sollicitudin nunc euismod sed. Mauris viverra, erat non sagittis gravida,elit dui mollis ante, sit amet eleifend purus ligula eget eros. Sed tincidunt quam vitae neque pharetra dignissim eget ut libero.",
+    "section4Desc": "Please complete the following form to contact me",
+    "resumeTitle": "Download My Resume",
+    "job": "Software Delevoper",
+    "about": "After graduating as a Computer Installation and Maintenance Technician in 2021, I completed various professional internships and worked under fixed-term contracts in various companies operating in the fields of mobile & web programming and e-commerce. I sold my first software when I was in high school. For the development of applications and websites, I mainly use laravel and symfony for the creation, redesign and maintenance of websites and web applications without forgetting the essential tools of front-end development such as html, css and javascriptI also master Node.js, AngularJS, VueJS, ReactJs, Django technologies. I know how to design management applications (stocks, human resources, invoicing, ERP, CRM) for companies whatever their size. I can also develop applications that can allow you to interact with maps or plans. I developed a human resources management application and an invoicing application on behalf of BHT SARL, which has around ten shops. I was a web integrator in an e-commerce company called FuturaVision. Currently I am a fullstack developer within the startup HyPerText which specializes in the design of Web & mobile applications.",
     "knowledge": [
         {
-            "picClass": "fa-github",
-            "title": "Web Coding",
-            "desc": "Phasellus non convallis dolor. Integer tempor hendrerit arcu at bibendum. Sed ac ante non metus vehicula congue quis eget eros."
+            "picClass": "fa-code",
+            "title": "Website Delevopment",
+            "desc": "Design of showcase website, blog, forum..."
+        },
+        {
+            "picClass": "fa-android",
+            "title": "Android Developer",
+            "desc": "PWA & Native application under Kotlin or Hybrid under Ionic..."
+        },
+        {
+            "picClass": "fa-pencil",
+            "title": "UX/UI",
+            "desc": "Design of company logo, web & mobile application mockup..."
         },
         {
             "picClass": "fa-github",
-            "title": "UIX Design",
-            "desc": "Phasellus non convallis dolor. Integer tempor hendrerit arcu at bibendum. Sed ac ante non metus vehicula congue quis eget eros."
-        },
-        {
-            "picClass": "fa-github",
-            "title": "Web Coding",
-            "desc": "Phasellus non convallis dolor. Integer tempor hendrerit arcu at bibendum. Sed ac ante non metus vehicula congue quis eget eros."
-        },
-        {
-            "picClass": "fa-github",
-            "title": "Web Coding",
-            "desc": "Phasellus non convallis dolor. Integer tempor hendrerit arcu at bibendum. Sed ac ante non metus vehicula congue quis eget eros."
+            "title": "Web Application",
+            "desc": "Front-end + Backend web application Development"
         }
     ]
 }
