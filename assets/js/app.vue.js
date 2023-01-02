@@ -3,6 +3,8 @@ const app = Vue.createApp({
         return {
             data: {},
             lang: "fr",
+            soClick: '*',
+            loading: true
         };
     },
 
@@ -18,12 +20,15 @@ const app = Vue.createApp({
         select() {
             location.assign(`?${this.lang}`);
         },
+        loadNewTab: function(e) {
+            this.soClick = e.target.getAttribute('data-type');
+        }
     },
-
     mounted() {
         this.lang =
             location.search.length <= 1 ? "fr" : location.search.split("?")[1];
         this.getInfo();
+        this.loading = false;
     },
     updated() {
         new fJs.Intersection({
@@ -34,6 +39,7 @@ const app = Vue.createApp({
             rootMargin: '0px',
             threshold: 0.7,
         });
+        new fJs.AutoWriteText();
     }
 });
 app.mount("#app");

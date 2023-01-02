@@ -6,13 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="description" content="This is Kabirou ALASSANE portfolio to illustrate all of his skills" />
   <meta name="author" content="Kabirou ALASSANE" />
-  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Mulish" rel="stylesheet" />
   <title>Kabirou ALASSANE | Full-Stack Web & Mobile Developer</title>
   <link rel="icon"
     href="https://firebasestorage.googleapis.com/v0/b/futura-vision.appspot.com/o/kabir.jpg?alt=media&token=088743af-1095-4069-bf83-c3a30438df0b">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css"
-    integrity="sha512-c8AIFmn4e0WZnaTOCXTOLzR+uIrTELY9AeIuUq6ODGaO619BjqG2rhiv/y6dIdmM7ba+CpzMRkkztMPXfVBm9g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -20,12 +19,6 @@
     integrity="sha512-i8+QythOYyQke6XbStjt9T4yQHhhM+9Y9yTY1fOxoDQwsQpKMEpIoSQZ8mVomtnVCf9PBvoQDnKl06gGOOD19Q=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="assets/css/templatemo-style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
-    integrity="sha512-ZKX+BvQihRJPA8CROKBhDNvoc2aDMOdAlcm7TUQY+35XYtrd3yh95QOOhsPDQY9QnKE0Wqag9y38OIgEvb88cA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.0/axios.min.js"
     integrity="sha512-OdkysyYNjK4CZHgB+dkw9xQp66hZ9TLqmS2vXaBrftfyJeduVhyy1cOfoxiKdi4/bfgpco6REu6Rb+V2oVIRWg=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -42,16 +35,27 @@
 
     gtag('config', 'G-R28JTD62L2');
   </script>
-  <style>
-    .setImg {
-      max-width: 300px;
-      max-height: 200px;
-    }
-  </style>
 </head>
 
-<body>
+<body class="bg-dark">
   <div id="app">
+    <div class="container-fluid bg-light position-fixed w-100 h-100"
+     style="height:100vh; z-index: 10000!important;" v-show="loading">
+      <div class="row justify-content-center h-100 w-100">
+        <div class="col-6 m-auto">
+          <div class="text-center">
+            <div class="spinner-grow m-1 text-danger" role="status">
+            </div>
+            <div class="spinner-grow m-1 text-warning" role="status">
+            </div>
+            <div class="spinner-grow m-1 text-info" role="status">
+            </div>
+            <div class="spinner-grow m-1 text-success" role="status">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div id="page-wraper">
       <div class="responsive-nav">
         <i class="fa fa-bars" id="menu-toggle"></i>
@@ -84,8 +88,8 @@
                 </li>
               </ul>
             </div>
-            <div class="lang mt-4">
-              <select name="lang mx-auto" style="width: 50%" v-model="lang" @change="select">
+            <div class="lang mt-4 w-75 mx-auto">
+              <select class="form-select" aria-label="Select language" v-model="lang" @change="select">
                 <option value="fr">French</option>
                 <option value="en">English</option>
               </select>
@@ -105,74 +109,12 @@
           </div>
           <div class="mt-4">
             <h3 class="text-center my-3 revealElement">Technologies</h3>
-            <div class="revealElement">
-              <h4>JavaScript</h4>
+            <div class="revealElement" v-for="t in data.technologies" :key="t">
+              <h4>{{ t.name }}</h4>
               <div class="progress my-3">
-                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar"
-                  style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="revealElement">
-              <h4>PHP</h4>
-              <div class="progress my-3">
-                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar"
-                  style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="revealElement">
-              <h4>Python/Django</h4>
-              <div class="progress my-3">
-                <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar"
-                  style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="revealElement">
-              <h4>NodeJS</h4>
-              <div class="progress my-3">
-                <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar"
-                  style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="revealElement">
-              <h4>VueJS</h4>
-              <div class="progress my-3">
-                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar"
-                  style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="revealElement">
-              <h4>Laravel</h4>
-              <div class="progress my-3">
-                <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75"
-                  aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="revealElement">
-              <h4>Angular</h4>
-              <div class="progress my-3">
-                <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50"
-                  aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="revealElement">
-              <h4>TypeScript</h4>
-              <div class="progress my-3">
-                <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75"
-                  aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="revealElement">
-              <h4>Kotlin</h4>
-              <div class="progress my-3">
-                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar"
-                  style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="revealElement">
-              <h4>Ionic</h4>
-              <div class="progress my-3">
-                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar"
-                  style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar progress-bar-striped progress-bar-animated" :class="t.colorClass"
+                  role="progressbar" :style="`width: ${t.skill}%`" :aria-valuenow="t.skill" aria-valuemin="0"
+                  aria-valuemax="100"></div>
               </div>
             </div>
           </div>
@@ -205,146 +147,45 @@
             <div class="line-dec"></div>
             <span class="revealElement"> {{ data.section3Desc }} </span>
           </div>
-          <div class="row">
-            <div class="isotope-wrapper">
-              <form class="isotope-toolbar">
-                <label><input type="radio" data-type="*" checked="" name="isotope-filter" />
-                  <span>all</span></label>
-                <label><input type="radio" data-type="PHP" name="isotope-filter" />
-                  <span>PHP</span></label>
-                <label><input type="radio" data-type="Laravel" name="isotope-filter" />
-                  <span>Laravel</span></label>
-                <label><input type="radio" data-type="Django" name="isotope-filter" />
-                  <span>Python/Django</span></label>
-                <label><input type="radio" data-type="VueJS" name="isotope-filter" />
-                  <span>VueJS</span></label>
-                <label><input type="radio" data-type="JavaScript" name="isotope-filter" />
-                  <span>JavaScript</span></label>
-              </form>
-              <div class="isotope-box my-3">
-                <div class="isotope-item revealElement" data-type="PHP">
-                  <figure class="snip1321">
-                    <a href="https://g-gallery-app.000webhostapp.com/">
-                      <img src="https://github.com/BlakvGhost/gGallery/raw/main/screenshot-home.png" alt="sq-sample26"
-                        class="setImg" />
-                      <figcaption>
-                        <a href="https://github.com/BlakvGhost/gGallery/raw/main/screenshot-home.png"
-                          data-lightbox="image-1" data-title="gGallery"><i class="fa fa-search"></i></a>
-                        <h4>gGallery</h4>
-                        <span>A small web application written in PHP working as a web gallery, for storing images,
-                          videos, documents...with upload system without reloading the page.</span>
-                      </figcaption>
-                    </a>
-                  </figure>
-                </div>
-                <div class="isotope-item revealElement" data-type="Laravel">
-                  <figure class=" snip1321">
-                    <a href="http://neptune-app.42web.io">
-                      <img src="https://github.com/BlakvGhost/neptune/raw/main/screenshot.png" alt="sq-sample26"
-                        class="setImg" />
-                      <figcaption>
-                        <a href="https://github.com/BlakvGhost/neptune/raw/main/screenshot.png" data-lightbox="image-1"
-                          data-title="Neptune"><i class="fa fa-search"></i></a>
-                        <h4>Neptune</h4>
-                        <span>Une application web de gestion de stock avec systeme de facturation automatique</span>
-                      </figcaption>
-                    </a>
-                  </figure>
-                </div>
-                <div class="isotope-item revealElement" data-type="Django">
-                  <figure class="snip1321">
-                    <a href="https://ltnconduiteapp.pythonanywhere.com/">
-                      <img src="https://github.com/BlakvGhost/LtnConduiteApp/raw/main/screenshot.png" alt="sq-sample26"
-                        class="setImg" />
-                      <figcaption>
-                        <a href="https://github.com/BlakvGhost/LtnConduiteApp/raw/main/screenshot.png"
-                          data-lightbox="image-1" data-title="ltnConduite"><i class="fa fa-search"></i></a>
-                        <h4>ltnConduite</h4>
-                        <span>
-                          A small web application designed for the first time on behalf of the Lycée Technique de
-                          Natitingou for the vote of the pipes by teachers for each class.
-                        </span>
-                      </figcaption>
-                    </a>
-                  </figure>
-                </div>
-                <div class="isotope-item revealElement" data-type="Django">
-                  <figure class="snip1321">
-                    <a href="https://gtube.pythonanywhere.com/">
-                      <img src="https://github.com/BlakvGhost/gTube/raw/main/screenshot.png" alt="sq-sample26"
-                        class="setImg" />
-                      <figcaption>
-                        <a href="https://github.com/BlakvGhost/gTube/raw/main/screenshot.png" data-lightbox="image-1"
-                          data-title="ltnConduite"><i class="fa fa-search"></i></a>
-                        <h4>gTube</h4>
-                        <span>
-                          A small web application for downloading youtube videos in various formats that works a bit
-                          like the famous savefrom.net
-                        </span>
-                      </figcaption>
-                    </a>
-                  </figure>
-                </div>
-                <div class="isotope-item revealElement" data-type="VueJS">
-                  <figure class="snip1321">
-                    <a href="https://futura-vision.vercel.app/">
-                      <img src="assets/projects/GitHub_Logo_White.png" alt="sq-sample26" class="setImg" />
-                      <figcaption>
-                        <a href="https://futura-vision.vercel.app/"><i class="fa fa-search"></i></a>
-                        <h4>futura-vision</h4>
-                        <span>
-                          Site de vitrine de FuturaVision ecrit en Vue.js
-                        </span>
-                      </figcaption>
-                    </a>
-                  </figure>
-                </div>
-                <div class="isotope-item revealElement" data-type="Laravel">
-                  <figure class="snip1321">
-                    <a href="https://github.com/BlakvGhost/futura-vision-api.git">
-                      <img src="assets/projects/GitHub_Logo.png" alt="sq-sample26" class="setImg" />
-                      <figcaption>
-                        <a href="https://github.com/BlakvGhost/futura-vision-api.git"><i class="fa fa-search"></i></a>
-                        <h4>futura-vision API</h4>
-                        <span>
-                          API du site futura-vision
-                        </span>
-                      </figcaption>
-                    </a>
-                  </figure>
-                </div>
-                <div class="isotope-item revealElement" data-type="JavaScript">
-                  <figure class="snip1321">
-                    <a href="https://g-calc.vercel.app/">
-                      <img src="https://github.com/BlakvGhost/gCalc/raw/main/screenshot.png" alt="sq-sample26"
-                        class="setImg" />
-                      <figcaption>
-                        <a href="https://github.com/BlakvGhost/gCalc/raw/main/screenshot.png" data-lightbox="image-1"
-                          data-title="gCalc"><i class="fa fa-search"></i></a>
-                        <h4>gCalc</h4>
-                        <span>
-                          JavaScript Calculator
-                        </span>
-                      </figcaption>
-                    </a>
-                  </figure>
-                </div>
-                <div class="isotope-item revealElement" data-type="JavaScript">
-                  <figure class="snip1321">
-                    <a href="https://github.com/BlakvGhost/FuturaJS.git">
-                      <img src="https://github.com/BlakvGhost/FuturaJS/raw/main/futurajs.png" alt="sq-sample26"
-                        class="setImg" />
-                      <figcaption>
-                        <a href="https://github.com/BlakvGhost/FuturaJS/raw/main/futurajs.png" data-lightbox="image-1"
-                          data-title="FuturaJS"><i class="fa fa-search"></i></a>
-                        <h4>FuturaJS</h4>
-                        <span>
-                          A small JavaScript library for common tasks such as Carousel, Exception, Animation handler and
-                          more...
-                        </span>
-                      </figcaption>
-                    </a>
-                  </figure>
+          <div class="my-3">
+            <div class="d-flex justify-content-center">
+              <a href="javascript:void(0)" class="mx-2 fw-bolder text-primary" @click.prevent="loadNewTab" data-type="*"
+                :class="soClick===`*`? 'text-primary': 'text-light'">All</a>
+              <a href="javascript:void(0)" class="mx-2 fw-bolder" v-for="(k, p) of data.works" :key="p"
+                @click.prevent="loadNewTab" :data-type="p" :class="soClick == p? 'text-primary': 'text-light'">
+                {{ p }}
+              </a>
+            </div>
+            <div class="my-3">
+              <div class="container animate__animated animate__fadeIn" v-for="(k, p) in data.works" :key="p"
+                :class="(soClick == p) || (soClick == '*')? 'd-block': 'd-none'">
+                <div class="row py-4 border-bottom border-3 revealElement" v-for="n in k" :key="n">
+                  <div class="col-12 col-sm-5 position-relative" style="height: 200px;">
+                    <div class="position-absolute top-0 left-0 h-100 w-100 overflow-hidden">
+                      <a :href="n.git">
+                        <img :src="n.pic" :alt="n.name" class="w-100 h-100 rounded-1">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 mx-3">
+                    <div class="my-sm-0 my-2">
+                      <h4><a :href="n.link" class="text-light" data-fv-anim='autowrite'
+                          :data-fv-data="n.name"></a></h4>
+                      <h6 class="text-white-50">
+                        {{ n.desc }}
+                      </h6>
+                    </div>
+                    <div>
+                      <div class="text-end">
+                        <a :href="n.git" class="mx-2 btn btn-link ">
+                          <i class="fa fa-github fa-2x"></i>
+                        </a>
+                        <a :href="n.link" class="mx-2 btn btn-link">
+                          <i class="fa fa-link fa-2x"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -364,64 +205,45 @@
                 <form id="contact" action="https://formspree.io/f/xwkjedkd" method="post">
                   <div class="row">
                     <div class="col-md-6">
-                      <fieldset>
-                        <input name="name" type="text" class="form-control" id="name" placeholder="Your name..."
-                          required="" />
-                      </fieldset>
+                      <input type="text" name="name" id="name" class="form-control" placeholder="Enter Your Name..."
+                        required>
                     </div>
                     <div class="col-md-6">
-                      <fieldset>
-                        <input name="email" type="text" class="form-control" id="email" placeholder="Your email..."
-                          required="" />
-                      </fieldset>
+                      <input type="text" name="email" id="email" class="form-control" placeholder="Enter Your Email..."
+                        required>
                     </div>
                     <div class="col-md-12">
-                      <fieldset>
-                        <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject..."
-                          required="" />
-                      </fieldset>
+                      <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject..."
+                        required>
                     </div>
                     <div class="col-md-12">
-                      <fieldset>
-                        <textarea name="message" rows="6" class="form-control" id="message"
-                          placeholder="Your message..." required=""></textarea>
-                      </fieldset>
-                    </div>
-                    <div class="col-md-12">
-                      <fieldset>
-                        <button type="submit" id="form-submit" class="button">
-                          Send Message
-                        </button>
-                      </fieldset>
+                      <textarea name="message" id="message" rows="6" class="form-control" placeholder="Your Message..."
+                        required></textarea>
                     </div>
                   </div>
-                </form>
+                  <div class="col-md-12 text-center">
+                    <button type="submit" class="btn btn-primary w-50">SEND</button>
+                    </fieldset>
+                  </div>
               </div>
+              </form>
             </div>
           </div>
         </div>
-      </section>
     </div>
+    </section>
+  </div>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
     integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.bundle.min.js"
-    integrity="sha512-uo0BDK5V972jjjo8Z0vohOa6WOTIPaRGPI/Pg3GLzErcfOK8bkZpY3aHfG1WwS2uZ6cJ6GcrRiO4mRCJjGWOhQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.global.prod.min.js"
     integrity="sha512-3CesFAr6COyDB22AiVG2erk2moD1FeL3VMx6UezptTW3qmYdcQhfv6yDGmH4ICNTxd0Rs2AbMQ0Q5lG7J/8n3Q=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="assets/js/app.vue.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
-    integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"
-    integrity="sha512-k2GFCTbp9rQU412BStrcD/rlwv1PYec9SNrkbQlo6RZCf75l6KcC3UwDY8H5n5hl4v77IDtIPwOk9Dqjs/mMBQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="assets/js/custom.js"></script>
   <script>
     //according to loftblog tut
@@ -436,8 +258,8 @@
 
       if (isAnimate) {
         $("body, html").animate({
-            scrollTop: reqSectionPos
-          },
+          scrollTop: reqSectionPos
+        },
           800
         );
       } else {
@@ -469,7 +291,7 @@
     });
 
     $(window).scroll(function () {
-      //checkSection();
+      checkSection();
     });
   </script>
 </body>
