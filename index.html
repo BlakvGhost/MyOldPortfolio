@@ -148,10 +148,10 @@
             <span class="revealElement"> {{ data.section3Desc }} </span>
           </div>
           <div class="my-3">
-            <div class="d-flex justify-content-center">
-              <a href="javascript:void(0)" class="mx-2 fw-bolder text-primary" @click.prevent="loadNewTab" data-type="*"
+            <div class="d-flex justify-content-center flex-wrap">
+              <a href="javascript:void(0)" class="m-2 fw-bolder text-primary" @click.prevent="loadNewTab" data-type="*"
                 :class="soClick===`*`? 'text-primary': 'text-light'">All</a>
-              <a href="javascript:void(0)" class="mx-2 fw-bolder" v-for="(k, p) of data.works" :key="p"
+              <a href="javascript:void(0)" class="m-2 fw-bolder" v-for="(k, p) of data.works" :key="p"
                 @click.prevent="loadNewTab" :data-type="p" :class="soClick == p? 'text-primary': 'text-light'">
                 {{ p }}
               </a>
