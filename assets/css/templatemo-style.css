@@ -1,15 +1,9 @@
 
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css?family=Mukta");
 @import url('https://fonts.googleapis.com/css2?family=Indie Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto Sans Japanese&display=swap');
 body {
     font-family: 'Mukta', sans-serif;
-=======
-@import url("https://fonts.googleapis.com/css?family=Mulish");
-body {
-    font-family: 'Mulish', sans-serif;
->>>>>>> f1da1c581142023c0d3ae35b886b0c5e83073276
 }
 
 /* Basic */
@@ -17,16 +11,12 @@ body {
 body {
     overflow-x: hidden;
 }
-<<<<<<< HEAD
 .caveat {
     font-family: 'Indie Flower', cursive;
 }
 .ftContent {
     font-family: 'Noto Sans Japanese', serif;
 }
-=======
-
->>>>>>> f1da1c581142023c0d3ae35b886b0c5e83073276
 input,
 select,
 textarea {
