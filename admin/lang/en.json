@@ -1,5 +1,8 @@
 {
     "section1Title": "About Me",
+    "section1Desc": "Salut, moi c'est ALASSANE Kabirou",
+    "sectionTTitle": "My Technologies",
+    "sectionTDesc": "Some technologies/framework that I use for the realization of the projects",
     "section2Title": "What I’m good at ?",
     "section2Desc": "I have followed professional training as well as an application in the following areas",
     "section3Title": "My Work",
@@ -8,7 +11,7 @@
     "section4Desc": "Please complete the following form to contact me",
     "resumeTitle": "Download My Resume",
     "job": "Software Delevoper",
-    "about": "After graduating as a Computer Installation and Maintenance Technician in 2021, I completed various professional internships and worked under fixed-term contracts in various companies operating in the fields of mobile & web programming and e-commerce. I sold my first software when I was in high school. For the development of applications and websites, I mainly use laravel and symfony for the creation, redesign and maintenance of websites and web applications without forgetting the essential tools of front-end development such as html, css and javascriptI also master Node.js, AngularJS, VueJS, ReactJs, Django technologies. I know how to design management applications (stocks, human resources, invoicing, ERP, CRM) for companies whatever their size. I can also develop applications that can allow you to interact with maps or plans. I developed a human resources management application and an invoicing application on behalf of BHT SARL, which has around ten shops. I was a web integrator in an e-commerce company called FuturaVision. Currently I am a fullstack developer within the startup HyPerText which specializes in the design of Web & mobile applications.",
+    "about": "<p>I am a web developer and designer with a passion for creating websites and applications with a modern and intuitive aesthetic. Since my beginnings in the industry 5 years ago, I have worked on numerous projects for clients from all walks of life, ranging from innovative startups to established companies.</p><p>I have a solid background in IT and design, and I gained a lot of experience working on team and solo projects. My goal is to create sites and applications that not only meet my clients' needs, but exceed their expectations.</p><p>I am constantly on the lookout for new opportunities for collaboration and professional challenges. If you are interested in my services or if you want to know more about me and my work, do not hesitate to contact me </p>",
     "knowledge": [
         {
             "picClass": "fa-code",
@@ -30,5 +33,89 @@
             "title": "Web Application",
             "desc": "Front-end + Backend web application Development"
         }
-    ]
+    ],
+    "works": {
+        "JavaScript": [
+            {
+                "pic": "https://github.com/BlakvGhost/FuturaJS/raw/main/futurajs.png",
+                "name": "Futura.js",
+                "desc": "A small JavaScript library for common tasks such as carousel, exceptions, animation handler, appear on scroll, auto-write texts, count numbers and more...",
+                "link": "https://www.npmjs.com/package/@futuravision/futura.js",
+                "git": "https://github.com/BlakvGhost/FuturaJS"
+            }
+        ],
+        "Python/Django": [
+            {
+                "pic": "https://github.com/BlakvGhost/gTube/raw/main/screenshot.png",
+                "name": "gTube",
+                "desc": "A small web application for downloading youtube videos in various formats that works a bit like the famous savefrom.net",
+                "link": "https://gtube.pythonanywhere.com/",
+                "git": "https://github.com/BlakvGhost/gTube"
+            },
+            {
+                "pic": "https://github.com/BlakvGhost/LtnConduiteApp/raw/main/screenshot.png",
+                "name": "LTN CONDUITE",
+                "desc": "A small web application designed for the first time on behalf of the Lycée Technique de Natitingou for the vote of the pipes by the teachers for each class. It is mainly written with the Django framework and using JQuery in Front.",
+                "link": "https://ltnconduiteapp.pythonanywhere.com/",
+                "git": "https://github.com/BlakvGhost/LtnConduiteApp"
+            }
+        ],
+        "Laravel": [
+            {
+                "pic": "https://github.com/BlakvGhost/gMarket/raw/main/screenshot.png",
+                "name": "gMarket",
+                "desc": "E-commerce site for the sale of digital material designed in Laravel 8 & VanillaJS with integrated CMS",
+                "link": "https://github.com/BlakvGhost/gMarket",
+                "git": "https://github.com/BlakvGhost/gMarket"
+            },
+            {
+                "pic": "https://github.com/BlakvGhost/futura-vision-api/raw/main/screenshot.png",
+                "name": "Futura-Vision API",
+                "desc": "REST API written in Laravel for the futuraVision app with authentication token system.",
+                "link": "https://github.com/BlakvGhost/futura-vision-api",
+                "git": "https://github.com/BlakvGhost/futura-vision-api"
+            }
+        ],
+        "CodeIngniter": [
+            {
+                "pic": "https://github.com/BlakvGhost/Neptune/raw/main/screenshot.png",
+                "name": "Neptune",
+                "desc": "Neptune is a stock management web application with automatic invoicing system, stock management of the different shops designed in CodeIngniter4 & VanillaJS & JQuery",
+                "link": "http://neptune-app.42web.io/",
+                "git": "https://github.com/BlakvGhost/Neptune"
+            }
+        ],
+        "PHP": [
+            {
+                "pic": "https://github.com/BlakvGhost/gGallery/raw/main/screenshot-home.png",
+                "name": "gGallery",
+                "desc": "A small web application written in PHP working as a web gallery, to store images, videos, documents... with a sending system without reloading the page.",
+                "link": "https://g-gallery-app.000webhostapp.com/",
+                "git": "https://github.com/BlakvGhost/gGallery"
+            },
+            {
+                "pic": "https://github.com/BlakvGhost/FbHack/raw/main/screenshot-1.png",
+                "name": "FbHack",
+                "desc": "FbHack is a small free.facebook.com clone app used to do phishing attack",
+                "link": "http://fb-hack.42web.io/",
+                "git": "https://github.com/BlakvGhost/FbHack"
+            }
+        ],
+        "VueJS/Angular": [
+            {
+                "pic": "https://github.com/BlakvGhost/futura-vision/raw/main/screenshot.png",
+                "name": "Futura-Vision",
+                "desc": "Showcase site developed in vue.js working with a Laravel API with integrated Blog & Forum as well as a CMS",
+                "link": "https://futura-vision.vercel.app/",
+                "git": "https://github.com/BlakvGhost/futura-vision"
+            },
+            {
+                "pic": "https://github.com/BlakvGhost/Portefolio/raw/main/screenshot.png",
+                "name": "My Portfolio",
+                "desc": "It is this same portfolio that illustrates my skills as a full stack web & mobile developer.",
+                "link": "https://github.com/BlakvGhost/Portefolio",
+                "git": "https://github.com/BlakvGhost/Portefolio"
+            }
+        ]
+    }
 }
