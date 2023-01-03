@@ -3,11 +3,8 @@ This is my portfolio to illustrate all my skills
 
 ## Who I'm ?
 
-<<<<<<< HEAD
 <h5 align="center">I am a software engineer and UI/UX designer focused on web development projects with Python , PHP, Node.JS and database administration . I am generally working on personal projects to grow my skills up, though i also have interest in other fields.</h5>
 
-=======
->>>>>>> f1da1c581142023c0d3ae35b886b0c5e83073276
 - 🔭 I’m currently working on **Frontend project**
 
 - 🌱 I’m currently learning **NodeJS, ReactJS**
@@ -20,7 +17,6 @@ This is my portfolio to illustrate all my skills
 <p align="left"><img src="https://komarev.com/ghpvc/?username=BlakvGhost&label=Profile%20views&color=0e75b6&style=flat" alt="BlakvGhost" /> </p>
 
 
-<<<<<<< HEAD
 ## <p align="center">Skills:</p>
 
 <p align="center">
@@ -63,11 +59,3 @@ This is my portfolio to illustrate all my skills
 ## <p align="center">Support me</p>
 
 <p align="center"><a href="https://www.buymeacoffee.com/kabiroualassane"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a></p>
-=======
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=BlakvGhost&show_icons=true&locale=en" alt="BlakvGhost" /></p>
-
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=BlakvGhost&show_icons=true&locale=en&layout=compact" alt="BlakvGhost" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=BlakvGhost&" alt="BlakvGhost" /></p>
->>>>>>> f1da1c581142023c0d3ae35b886b0c5e83073276
