@@ -7,6 +7,7 @@
   <meta name="keywords" content="portfolio, développement web, design, photographie">
   <meta name="robots" content="index, follow">
   <meta name="author" content="Kabirou ALASSANE" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
   <title>Kabirou ALASSANE | Full-Stack Web & Mobile Developer</title>
   <link rel="icon"
     href="https://firebasestorage.googleapis.com/v0/b/futura-vision.appspot.com/o/kabir.jpg?alt=media&token=088743af-1095-4069-bf83-c3a30438df0b">
@@ -107,26 +108,76 @@
             <div class="line-dec"></div>
             <span class="revealElement caveat"> {{ data.section1Desc }} </span>
           </div>
-          <div class="">
-            <div v-html="data.about" class="animate__animated animate__fadeIn"></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section my-services" data-section="sectionT">
-        <div class="container">
-          <div class="section-heading text-center">
-            <h2 class="text-center revealElement">{{ data.sectionTTitle }}</h2>
-            <div class="line-dec"></div>
-            <span class="revealElement caveat"> {{ data.sectionTDesc }} </span>
-          </div>
-          <div>
-            <div class="revealElement" v-for="t in data.technologies" :key="t">
-              <h4>{{ t.name }}</h4>
-              <div class="progress my-2">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" :class="t.colorClass"
-                  role="progressbar" :style="`width: ${t.skill}%`" :aria-valuenow="t.skill" aria-valuemin="0"
-                  aria-valuemax="100"></div>
+          <div class="mt-4">
+            <h3 class="text-center my-3 revealElement">Technologies</h3>
+            <div class="revealElement">
+              <h4>JavaScript</h4>
+              <div class="progress my-3">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar"
+                  style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="revealElement">
+              <h4>PHP</h4>
+              <div class="progress my-3">
+                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar"
+                  style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="revealElement">
+              <h4>Python/Django</h4>
+              <div class="progress my-3">
+                <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar"
+                  style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="revealElement">
+              <h4>NodeJS</h4>
+              <div class="progress my-3">
+                <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar"
+                  style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="revealElement">
+              <h4>VueJS</h4>
+              <div class="progress my-3">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar"
+                  style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="revealElement">
+              <h4>Laravel</h4>
+              <div class="progress my-3">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="revealElement">
+              <h4>Angular</h4>
+              <div class="progress my-3">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="revealElement">
+              <h4>TypeScript</h4>
+              <div class="progress my-3">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="revealElement">
+              <h4>Kotlin</h4>
+              <div class="progress my-3">
+                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar"
+                  style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="revealElement">
+              <h4>Ionic</h4>
+              <div class="progress my-3">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar"
+                  style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
           </div>
@@ -159,45 +210,146 @@
             <div class="line-dec"></div>
             <span class="revealElement caveat"> {{ data.section3Desc }} </span>
           </div>
-          <div class="my-3">
-            <div class="d-flex justify-content-center flex-wrap">
-              <a href="javascript:void(0)" class="m-2 fw-bolder text-primary" @click.prevent="loadNewTab" data-type="*"
-                :class="soClick===`*`? 'text-primary': 'text-light'">All</a>
-              <a href="javascript:void(0)" class="m-2 fw-bolder" v-for="(k, p) of data.works" :key="p"
-                @click.prevent="loadNewTab" :data-type="p" :class="soClick == p? 'text-primary': 'text-light'">
-                {{ p }}
-              </a>
-            </div>
-            <div class="my-3">
-              <div class="container animate__animated animate__fadeIn" v-for="(k, p) in data.works" :key="p"
-                :class="(soClick == p) || (soClick == '*')? 'd-block': 'd-none'">
-                <div class="row py-4 border-bottom border-3 revealElement" v-for="n in k" :key="n">
-                  <div class="col-12 col-sm-5 position-relative" style="height: 200px;">
-                    <div class="position-absolute top-0 left-0 h-100 w-100 overflow-hidden">
-                      <a :href="n.link" target="_blank">
-                        <img :src="n.pic" :alt="n.name" class="w-100 h-100 rounded-1">
-                      </a>
-                    </div>
-                  </div>
-                  <div class="col-12 col-sm-6 mx-3">
-                    <div class="my-sm-0 my-2">
-                      <h4><a :href="n.link" class="text-light" data-fv-anim='autowrite'
-                          :data-fv-data="n.name"></a></h4>
-                      <h6 class="text-white-50 ftContent">
-                        {{ n.desc }}
-                      </h6>
-                    </div>
-                    <div>
-                      <div class="text-end">
-                        <a :href="n.git" class="mx-2 btn btn-link" target="_blank">
-                          <i class="fa fa-github-square fa-2x"></i>
-                        </a>
-                        <a :href="n.link" class="mx-2 btn btn-link" target="_blank">
-                          <i class="fa fa-link fa-2x"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+          <div class="row">
+            <div class="isotope-wrapper">
+              <form class="isotope-toolbar">
+                <label><input type="radio" data-type="*" checked="" name="isotope-filter" />
+                  <span>all</span></label>
+                <label><input type="radio" data-type="PHP" name="isotope-filter" />
+                  <span>PHP</span></label>
+                <label><input type="radio" data-type="Laravel" name="isotope-filter" />
+                  <span>Laravel</span></label>
+                <label><input type="radio" data-type="Django" name="isotope-filter" />
+                  <span>Python/Django</span></label>
+                <label><input type="radio" data-type="VueJS" name="isotope-filter" />
+                  <span>VueJS</span></label>
+                <label><input type="radio" data-type="JavaScript" name="isotope-filter" />
+                  <span>JavaScript</span></label>
+              </form>
+              <div class="isotope-box my-3">
+                <div class="isotope-item revealElement" data-type="PHP">
+                  <figure class="snip1321">
+                    <a href="https://g-gallery-app.000webhostapp.com/">
+                      <img src="https://github.com/BlakvGhost/gGallery/raw/main/screenshot-home.png" alt="sq-sample26"
+                        class="setImg" />
+                      <figcaption>
+                        <a href="https://github.com/BlakvGhost/gGallery/raw/main/screenshot-home.png"
+                          data-lightbox="image-1" data-title="gGallery"><i class="fa fa-search"></i></a>
+                        <h4>gGallery</h4>
+                        <span>A small web application written in PHP working as a web gallery, for storing images,
+                          videos, documents...with upload system without reloading the page.</span>
+                      </figcaption>
+                    </a>
+                  </figure>
+                </div>
+                <div class="isotope-item revealElement" data-type="Laravel">
+                  <figure class=" snip1321">
+                    <a href="http://neptune-app.42web.io">
+                      <img src="https://github.com/BlakvGhost/neptune/raw/main/screenshot.png" alt="sq-sample26"
+                        class="setImg" />
+                      <figcaption>
+                        <a href="https://github.com/BlakvGhost/neptune/raw/main/screenshot.png" data-lightbox="image-1"
+                          data-title="Neptune"><i class="fa fa-search"></i></a>
+                        <h4>Neptune</h4>
+                        <span>Une application web de gestion de stock avec systeme de facturation automatique</span>
+                      </figcaption>
+                    </a>
+                  </figure>
+                </div>
+                <div class="isotope-item revealElement" data-type="Django">
+                  <figure class="snip1321">
+                    <a href="https://ltnconduiteapp.pythonanywhere.com/">
+                      <img src="https://github.com/BlakvGhost/LtnConduiteApp/raw/main/screenshot.png" alt="sq-sample26"
+                        class="setImg" />
+                      <figcaption>
+                        <a href="https://github.com/BlakvGhost/LtnConduiteApp/raw/main/screenshot.png"
+                          data-lightbox="image-1" data-title="ltnConduite"><i class="fa fa-search"></i></a>
+                        <h4>ltnConduite</h4>
+                        <span>
+                          A small web application designed for the first time on behalf of the Lycée Technique de
+                          Natitingou for the vote of the pipes by teachers for each class.
+                        </span>
+                      </figcaption>
+                    </a>
+                  </figure>
+                </div>
+                <div class="isotope-item revealElement" data-type="Django">
+                  <figure class="snip1321">
+                    <a href="https://gtube.pythonanywhere.com/">
+                      <img src="https://github.com/BlakvGhost/gTube/raw/main/screenshot.png" alt="sq-sample26"
+                        class="setImg" />
+                      <figcaption>
+                        <a href="https://github.com/BlakvGhost/gTube/raw/main/screenshot.png" data-lightbox="image-1"
+                          data-title="ltnConduite"><i class="fa fa-search"></i></a>
+                        <h4>gTube</h4>
+                        <span>
+                          A small web application for downloading youtube videos in various formats that works a bit
+                          like the famous savefrom.net
+                        </span>
+                      </figcaption>
+                    </a>
+                  </figure>
+                </div>
+                <div class="isotope-item revealElement" data-type="VueJS">
+                  <figure class="snip1321">
+                    <a href="https://futura-vision.vercel.app/">
+                      <img src="assets/projects/GitHub_Logo_White.png" alt="sq-sample26" class="setImg" />
+                      <figcaption>
+                        <a href="https://futura-vision.vercel.app/"><i class="fa fa-search"></i></a>
+                        <h4>futura-vision</h4>
+                        <span>
+                          Site de vitrine de FuturaVision ecrit en Vue.js
+                        </span>
+                      </figcaption>
+                    </a>
+                  </figure>
+                </div>
+                <div class="isotope-item revealElement" data-type="Laravel">
+                  <figure class="snip1321">
+                    <a href="https://github.com/BlakvGhost/futura-vision-api.git">
+                      <img src="assets/projects/GitHub_Logo.png" alt="sq-sample26" class="setImg" />
+                      <figcaption>
+                        <a href="https://github.com/BlakvGhost/futura-vision-api.git"><i class="fa fa-search"></i></a>
+                        <h4>futura-vision API</h4>
+                        <span>
+                          API du site futura-vision
+                        </span>
+                      </figcaption>
+                    </a>
+                  </figure>
+                </div>
+                <div class="isotope-item revealElement" data-type="JavaScript">
+                  <figure class="snip1321">
+                    <a href="https://g-calc.vercel.app/">
+                      <img src="https://github.com/BlakvGhost/gCalc/raw/main/screenshot.png" alt="sq-sample26"
+                        class="setImg" />
+                      <figcaption>
+                        <a href="https://github.com/BlakvGhost/gCalc/raw/main/screenshot.png" data-lightbox="image-1"
+                          data-title="gCalc"><i class="fa fa-search"></i></a>
+                        <h4>gCalc</h4>
+                        <span>
+                          JavaScript Calculator
+                        </span>
+                      </figcaption>
+                    </a>
+                  </figure>
+                </div>
+                <div class="isotope-item revealElement" data-type="JavaScript">
+                  <figure class="snip1321">
+                    <a href="https://github.com/BlakvGhost/FuturaJS.git">
+                      <img src="https://github.com/BlakvGhost/FuturaJS/raw/main/futurajs.png" alt="sq-sample26"
+                        class="setImg" />
+                      <figcaption>
+                        <a href="https://github.com/BlakvGhost/FuturaJS/raw/main/futurajs.png" data-lightbox="image-1"
+                          data-title="FuturaJS"><i class="fa fa-search"></i></a>
+                        <h4>FuturaJS</h4>
+                        <span>
+                          A small JavaScript library for common tasks such as Carousel, Exception, Animation handler and
+                          more...
+                        </span>
+                      </figcaption>
+                    </a>
+                  </figure>
                 </div>
               </div>
             </div>
