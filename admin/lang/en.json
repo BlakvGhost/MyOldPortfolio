@@ -40,7 +40,7 @@
                 "pic": "https://github.com/BlakvGhost/FuturaJS/raw/main/futurajs.png",
                 "name": "Futura.js",
                 "desc": "A small JavaScript library for common tasks such as carousel, exceptions, animation handler, appear on scroll, auto-write texts, count numbers and more...",
-                "link": "https://www.npmjs.com/package/@futuravision/futura.js",
+                "link": "https://blakvghost.github.io/FuturaJS",
                 "git": "https://github.com/BlakvGhost/FuturaJS"
             }
         ],
