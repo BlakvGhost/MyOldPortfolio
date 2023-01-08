@@ -3,21 +3,36 @@ This is my portfolio to illustrate all my skills
 
 ## Who I'm ?
 
-<h5 align="center">I am a software engineer and UI/UX designer focused on web development projects with Python , PHP, Node.JS and database administration . I am generally working on personal projects to grow my skills up, though i also have interest in other fields.</h5>
+<h5 align="center">I am a full stack developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Bénin. I am a hands-on learner, hence prefer learning new technologies through development. In my free time, I explore new technologies, read tech blogs and solve problems on Data Structures and Algorithms...</h5>
 
-- 🔭 I’m currently working on **Frontend project**
+<div id="badges" align="center">
+  <a href="https://www.linkedin.com/in/kabirou-alassane-11293524a" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  <a href="https://www.youtube.com/@kabirou-dev" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
+  </a>
+  <a href="https://www.twitter.com/g4l1l30_77" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
+  </a>
+</div>
 
-- 🌱 I’m currently learning **NodeJS, ReactJS**
+<p align="center"><img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/></p>
 
-- 👨‍💻 All of my projects are available at [https://kabirou-dev.vercel.app](https://kabirou-dev.vercel.app/)
+- 🔭 I’m currently working on **Musika, a musique web streaming app**
+
+- 🌱 I’m currently learning **NodeJS, Angular**
+
+- 👨‍💻 All of my projects are available at [My Portfolio](https://kabirou-dev.vercel.app/)
 
 - 💬 Ask me about **HTML, CSS, PHP, JavaScript, VueJS, Angular, Python/Django, NodeJS**
 
 - 📫 How to reach me **kabirou2001@gmail.com**
 <p align="left"><img src="https://komarev.com/ghpvc/?username=BlakvGhost&label=Profile%20views&color=0e75b6&style=flat" alt="BlakvGhost" /> </p>
 
+<p align="center"><img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"  /></p>
 
-## <p align="center">Skills:</p>
+## <p align="center">🛠 &nbsp;Languages and Tools :</p>
 
 <p align="center">
 <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>
@@ -37,24 +52,18 @@ This is my portfolio to illustrate all my skills
 <a href="https://www.angular.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/angularjs-colored.svg" width="36" height="36" alt="Angular" /></a>
 <a href="https://www.nodejs.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="36" height="36" alt="nodejs" /></a>
 <a href="https://www.laravel.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/laravel-colored.svg" width="36" height="36" alt="laravel" /></a>
+<a href="https://www.firebase.com/" target="_blank" rel="noreferrer"><img src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-plain-wordmark.svg" title="Firebase" alt="Firebase" width="40" height="40"/></a>
+<a href="https://www.postman.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" title="Postman"  alt="Postman" width="40" height="40"/></a>
+<a href="https://www.github.com/" target="_blank" rel="noreferrer"><img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/></a>
 </p>
 
-## <p align="center">Github Statistics</p>
 
+## <p align="center">🔥 &nbsp; Github Statistics</p>
 <p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=BlakvGhost&show_icons=true&hide=&count_private=true&title_color=10b981&text_color=ffffff&icon_color=0891b2&bg_color=134e4a&hide_border=true&show_icons=true" alt="BlakvGhost" /></p>
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=BlakvGhost&show_icons=true&locale=en&layout=compact" alt="BlakvGhost" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=BlakvGhost&" alt="BlakvGhost" /></p>
-
-## <p align="center">Social medias</p>
-
-<p align="center">
-  <a href="https://www.facebook.com/g4l1l30.77" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" width="32" height="32" /></a>
-  <a href="https://www.github.com/BlakvGhost" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a>
-  <a href="https://www.linkedin.com/in/kabirou-alassane-11293524a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a>
-  <a href="https://www.twitter.com/g4l1l30_77" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></a>
-</p>
 
 ## <p align="center">Support me</p>
 
