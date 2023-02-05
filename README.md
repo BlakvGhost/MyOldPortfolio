@@ -1,4 +1,5 @@
 # Portfolio
+
 This is my portfolio to illustrate all my skills
 
 ## Who I'm ?
@@ -15,6 +16,12 @@ This is my portfolio to illustrate all my skills
   <a href="https://www.twitter.com/g4l1l30_77" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
   </a>
+  <a href="https://dev.to/blakvghost" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/Devto-yellow?style=for-the-badge&logo=dev.to&logoColor=white" alt="DevTo Badge"/>
+  </a>
+  <a href="https://blakvghost.medium.com" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/medium-blue?style=for-the-badge&logo=medium&logoColor=white" alt="Medium Badge"/>
+  </a>
 </div>
 
 <p align="center"><img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/></p>
@@ -28,6 +35,7 @@ This is my portfolio to illustrate all my skills
 - 💬 Ask me about **HTML, CSS, PHP, JavaScript, VueJS, Angular, Python/Django, NodeJS**
 
 - 📫 How to reach me **kabirou2001@gmail.com**
+
 <p align="left"><img src="https://komarev.com/ghpvc/?username=BlakvGhost&label=Profile%20views&color=0e75b6&style=flat" alt="BlakvGhost" /> </p>
 
 <p align="center"><img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"  /></p>
@@ -57,8 +65,8 @@ This is my portfolio to illustrate all my skills
 <a href="https://www.github.com/" target="_blank" rel="noreferrer"><img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/></a>
 </p>
 
-
 ## <p align="center">🔥 &nbsp; Github Statistics</p>
+
 <p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=BlakvGhost&show_icons=true&hide=&count_private=true&title_color=10b981&text_color=ffffff&icon_color=0891b2&bg_color=134e4a&hide_border=true&show_icons=true" alt="BlakvGhost" /></p>
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=BlakvGhost&show_icons=true&locale=en&layout=compact" alt="BlakvGhost" /></p>
