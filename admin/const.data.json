@@ -75,5 +75,39 @@
             "skill": "55",
             "colorClass": "bg-warning"
         }
+    ],
+    "blogs": [
+        {
+            "cover": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ZdBAW92y70AHkLPkV6KRmA.jpeg",
+            "title": "Animation d’apparition au défilement avec JavaScript et CSS",
+            "date": "06/02/23",
+            "plateform": "Medium",
+            "url": "https://blakvghost.medium.com/animation-dapparition-au-défilement-avec-javascript-et-css-65e64e8162f0",
+            "types": ["javascript", "scrollReveal", "Animation", "ES6", "IntersectionObserver"]
+        },
+        {
+            "cover": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*J-J3_K9eOoZEVqn41qMn2w.png",
+            "title": "Créer un Carrousel en HTML CSS & JS",
+            "date": "05/02/23",
+            "plateform": "Medium",
+            "url": "https://blakvghost.medium.com/créer-un-carrousel-en-html-css-js-8f336b6085ed",
+            "types": ["javascript", "carousel", "slideshow", "Drag"]
+        },
+        {
+            "cover": "https://miro.medium.com/v2/resize:fit:1100/0*uZN6bApyBFZWNX8W",
+            "title": "Créer une animation d’écriture automatique de texte en javascript",
+            "date": "03/02/23",
+            "plateform": "Medium",
+            "url": "https://blakvghost.medium.com/animation-décriture-automatique-de-texte-en-javascript-56602b825148",
+            "types": ["javascript", "futura.js", "Animation", "Typing"]
+        },
+        {
+            "cover": "https://res.cloudinary.com/practicaldev/image/fetch/s--uHmG2RST--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0beuu0kmurwvuo4gjihv.png",
+            "title": "Futura.js:Animation d'écriture automatique de texte en javascript",
+            "date": "31/01/23",
+            "plateform": "DevTo",
+            "url": "https://dev.to/blakvghost/animation-decriture-automatique-de-texte-en-javascript-4onp",
+            "types": ["javascript", "Typing", "futura.js"]
+        }
     ]
 }

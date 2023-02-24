@@ -91,6 +91,7 @@
                 <li><a href="#section1"> {{ data.section1Title }} </a></li>
                 <li><a href="#section2"> {{ data.section2Title }} </a></li>
                 <li><a href="#section3"> {{ data.section3Title }} </a></li>
+                <li><a href="#section5"> {{ data.section5Title }} </a></li>
                 <li><a href="#section4"> {{ data.section4Title }} </a></li>
               </ul>
               <li><a href="assets/kabirou-alassane-resume.pdf" download> {{ data.resumeTitle }} </a></li>
@@ -220,6 +221,32 @@
           </div>
         </div>
       </section>
+      <section class="section blog-section" data-section="section5">
+        <div class="container">
+          <div class="section-heading text-center">
+            <h2 class="text-center revealElement">{{ data.section5Title }}</h2>
+            <div class="line-dec"></div>
+            <span class="caveat"> {{ data.section5Desc }} </span>
+          </div>
+          <div class="row row-cols-2 row-wrap">
+            <div class="card bg-transparent shadow-none border-0 my-3 overflow-hidden" v-for="blog in data.blogs" :key="blog">
+              <div class="card-head">
+                <div class="w-100" style="height: 150px;">
+                  <img :src="blog.cover" :alt="blog.title" class="w-100 h-100">
+                </div>
+              </div>
+              <div class="card-body shadow text-dark bg-light">
+                <h4 class="text-dark"> {{ blog.title }} </h4>
+                <h5>Posted at {{ blog.date }} on <span class="text-primary"> {{ blog.plateform }} </span> </h5>
+                <a target="_blank" :href="blog.url" class="btn btn-dark my-2 w-50"> Read </a>
+                <div class="my-2 row">
+                  <button class="btn btn-outline-success m-2 col col-3" v-for="type in blog.types" :key="type" :title="type"> {{ type }} </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="section contact-me" data-section="section4">
         <div class="container">
           <div class="section-heading text-center">
@@ -267,7 +294,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
     integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
-  </script>
+    </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.global.prod.min.js"
     integrity="sha512-3CesFAr6COyDB22AiVG2erk2moD1FeL3VMx6UezptTW3qmYdcQhfv6yDGmH4ICNTxd0Rs2AbMQ0Q5lG7J/8n3Q=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -286,8 +313,8 @@
 
       if (isAnimate) {
         $("body, html").animate({
-            scrollTop: reqSectionPos
-          },
+          scrollTop: reqSectionPos
+        },
           800
         );
       } else {
