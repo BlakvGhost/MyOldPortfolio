@@ -228,8 +228,8 @@
             <div class="line-dec"></div>
             <span class="caveat"> {{ data.section5Desc }} </span>
           </div>
-          <div class="row row-cols-2 row-wrap">
-            <div class="card bg-transparent shadow-none border-0 my-3 overflow-hidden" v-for="blog in data.blogs" :key="blog">
+          <div class="row row-wrap">
+            <div class="col-12 col-sm-6 card bg-transparent shadow-none border-0 my-3 overflow-hidden" v-for="blog in data.blogs" :key="blog">
               <div class="card-head">
                 <div class="w-100" style="height: 150px;">
                   <img :src="blog.cover" :alt="blog.title" class="w-100 h-100">
