@@ -92,15 +92,8 @@
                 "pic": "https://github.com/BlakvGhost/gGallery/raw/main/screenshot-home.png",
                 "name": "gGallery",
                 "desc": "A small web application written in PHP working as a web gallery, to store images, videos, documents... with a sending system without reloading the page.",
-                "link": "https://g-gallery-app.000webhostapp.com/",
+                "link": "https://g-gallery.42web.io",
                 "git": "https://github.com/BlakvGhost/gGallery"
-            },
-            {
-                "pic": "https://github.com/BlakvGhost/FbHack/raw/main/screenshot-1.png",
-                "name": "FbHack",
-                "desc": "FbHack is a small free.facebook.com clone app used to do phishing attack",
-                "link": "http://fb-hack.42web.io/",
-                "git": "https://github.com/BlakvGhost/FbHack"
             }
         ],
         "VueJS/Angular": [
