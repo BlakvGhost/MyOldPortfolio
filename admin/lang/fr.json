@@ -94,7 +94,7 @@
                 "desc": "Une petite application web écrite en PHP fonctionnant comme une galerie web, pour stocker des images, des vidéos, des documents... avec un système d'envoi sans recharger la page.",
                 "link": "https://g-gallery.42web.io",
                 "git": "https://github.com/BlakvGhost/gGallery"
-            },
+            }
         ],
         "VueJS/Angular": [
             {
