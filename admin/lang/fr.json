@@ -95,13 +95,6 @@
                 "link": "https://g-gallery.42web.io",
                 "git": "https://github.com/BlakvGhost/gGallery"
             },
-            {
-                "pic": "https://github.com/BlakvGhost/FbHack/raw/main/screenshot-1.png",
-                "name": "FbHack",
-                "desc": "FbHack est une petite application clone free.facebook.com utilisée pour faire une attaque de phishing",
-                "link": "http://fb-hack.42web.io/",
-                "git": "https://github.com/BlakvGhost/FbHack"
-            }
         ],
         "VueJS/Angular": [
             {
