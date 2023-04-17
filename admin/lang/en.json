@@ -46,6 +46,15 @@
                 "git": "https://github.com/BlakvGhost/FuturaJS"
             }
         ],
+        "TypeScript": [
+            {
+                "pic": "https://res.cloudinary.com/practicaldev/image/fetch/s--2ZfVeb_e--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/uf3a8y7xh8aroo95qocz.jpg",
+                "name": "web-task-automatisation",
+                "desc": "This project was created in order to automate a task on a web platform. It allows you to connect to a user account and click on a button to mark your online presence. In addition, it automatically disconnects at a given time.",
+                "link": "https://github.com/BlakvGhost/web-task-automatisation#readme",
+                "git": "https://github.com/BlakvGhost/web-task-automatisation"
+            }
+        ],
         "Python/Django": [
             {
                 "pic": "https://github.com/BlakvGhost/gTube/raw/main/screenshot.png",
