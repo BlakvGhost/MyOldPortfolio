@@ -12,5 +12,12 @@
       "source": "/index.html",
       "destination": "https://kabirou-alassane.com/"
     }
+  ],
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://kabirou-alassane.com/",
+      "statusCode": 301
+    }
   ]
 }
