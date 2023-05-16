@@ -18,6 +18,11 @@
       "source": "/",
       "destination": "https://kabirou-alassane.com/",
       "statusCode": 301
+    },
+    {
+      "source": "/index.html",
+      "destination": "https://kabirou-alassane.com/",
+      "statusCode": 301
     }
   ]
 }
