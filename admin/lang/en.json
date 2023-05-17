@@ -92,7 +92,7 @@
                 "pic": "https://github.com/BlakvGhost/Neptune/raw/main/screenshot.png",
                 "name": "Neptune",
                 "desc": "Neptune is a stock management web application with automatic invoicing system, stock management of the different shops designed in CodeIngniter4 & VanillaJS & JQuery",
-                "link": "http://neptune-app.42web.io/",
+                "link": "https://neptune.kabirou-alassane.com/",
                 "git": "https://github.com/BlakvGhost/Neptune"
             }
         ],
@@ -101,7 +101,7 @@
                 "pic": "https://github.com/BlakvGhost/gGallery/raw/main/screenshot-home.png",
                 "name": "gGallery",
                 "desc": "A small web application written in PHP working as a web gallery, to store images, videos, documents... with a sending system without reloading the page.",
-                "link": "https://g-gallery.42web.io",
+                "link": "https://g-gallery.kabirou-alassane.com",
                 "git": "https://github.com/BlakvGhost/gGallery"
             }
         ],
