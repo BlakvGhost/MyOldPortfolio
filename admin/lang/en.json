@@ -60,7 +60,7 @@
                 "pic": "https://github.com/BlakvGhost/gTube/raw/main/screenshot.png",
                 "name": "gTube",
                 "desc": "A small web application for downloading youtube videos in various formats that works a bit like the famous savefrom.net",
-                "link": "https://gtube.pythonanywhere.com/",
+                "link": "https://gtube.kabirou-alassane.com/",
                 "git": "https://github.com/BlakvGhost/gTube"
             },
             {
@@ -76,14 +76,14 @@
                 "pic": "https://github.com/BlakvGhost/gMarket/raw/main/screenshot.png",
                 "name": "gMarket",
                 "desc": "E-commerce site for the sale of digital material designed in Laravel 8 & VanillaJS with integrated CMS",
-                "link": "https://github.com/BlakvGhost/gMarket",
+                "link": "https://ltnconduite.kabirou-alassane.com/",
                 "git": "https://github.com/BlakvGhost/gMarket"
             },
             {
                 "pic": "https://github.com/BlakvGhost/futura-vision-api/raw/main/screenshot.png",
                 "name": "Futura-Vision API",
                 "desc": "REST API written in Laravel for the futuraVision app with authentication token system.",
-                "link": "https://github.com/BlakvGhost/futura-vision-api",
+                "link": "https://g-market.kabirou-alassane.com",
                 "git": "https://github.com/BlakvGhost/futura-vision-api"
             }
         ],
@@ -92,7 +92,7 @@
                 "pic": "https://github.com/BlakvGhost/Neptune/raw/main/screenshot.png",
                 "name": "Neptune",
                 "desc": "Neptune is a stock management web application with automatic invoicing system, stock management of the different shops designed in CodeIngniter4 & VanillaJS & JQuery",
-                "link": "http://neptune-app.42web.io/",
+                "link": "https://neptune.kabirou-alassane.com/",
                 "git": "https://github.com/BlakvGhost/Neptune"
             }
         ],
@@ -101,7 +101,7 @@
                 "pic": "https://github.com/BlakvGhost/gGallery/raw/main/screenshot-home.png",
                 "name": "gGallery",
                 "desc": "A small web application written in PHP working as a web gallery, to store images, videos, documents... with a sending system without reloading the page.",
-                "link": "https://g-gallery.42web.io",
+                "link": "https://g-gallery.kabirou-alassane.com",
                 "git": "https://github.com/BlakvGhost/gGallery"
             }
         ],

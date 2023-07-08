@@ -6,7 +6,7 @@
     "section2Title": "Je suis bon en Quoi ?",
     "section2Desc": "J'ai suivi des formations professionnel ainsi qu'une application des domaines suivants",
     "section3Title": "Mes Realisations",
-    "section3Desc": "Voici quelque projets realisés dernierement, Veuillez consulter mon depot GitHub pour avoir la totalité de mes projets.",
+    "section3Desc": "Voici quelquez projets realisés dernierement, Veuillez consulter mon dépot GitHub pour avoir la totalité de mes projets.",
     "section4Title": "Me Contacter",
     "section4Desc": "Veuillez renseignez le formulaire suivant pour me contacter",
     "section5Title": "Blog",
@@ -60,14 +60,14 @@
                 "pic": "https://github.com/BlakvGhost/gTube/raw/main/screenshot.png",
                 "name": "gTube",
                 "desc": "Une petite application web pour télécharger des vidéos youtube dans divers formats qui fonctionne un peu comme le fameux savefrom.net",
-                "link": "https://gtube.pythonanywhere.com/",
+                "link": "https://gtube.kabirou-alassane.com/",
                 "git": "https://github.com/BlakvGhost/gTube"
             },
             {
                 "pic": "https://github.com/BlakvGhost/LtnConduiteApp/raw/main/screenshot.png",
                 "name": "LTN CONDUITE",
                 "desc": "Une petite application web conçue pour la première fois pour le compte du Lycée Technique de Natitingou pour le vote des conduites par les professeurs pour chaque classe. Il est principalement écrit avec le framework Django et en utilisant JQuery in Front.",
-                "link": "https://ltnconduiteapp.pythonanywhere.com/",
+                "link": "https://ltnconduite.kabirou-alassane.com/",
                 "git": "https://github.com/BlakvGhost/LtnConduiteApp"
             }
         ],
@@ -76,14 +76,14 @@
                 "pic": "https://github.com/BlakvGhost/gMarket/raw/main/screenshot.png",
                 "name": "gMarket",
                 "desc": "Site e-commerce de vente de matériel numérique conçu en Laravel 8 & VanillaJS avec CMS intégré",
-                "link": "https://github.com/BlakvGhost/gMarket",
+                "link": "https://g-market.kabirou-alassane.com",
                 "git": "https://github.com/BlakvGhost/gMarket"
             },
             {
                 "pic": "https://github.com/BlakvGhost/futura-vision-api/raw/main/screenshot.png",
                 "name": "Futura-Vision API",
                 "desc": "API REST écrite en Laravel pour l'application futuraVision avec système de jeton d'authentification.",
-                "link": "https://github.com/BlakvGhost/futura-vision-api",
+                "link": "https://futura-vision-api.kabirou-alassane.com",
                 "git": "https://github.com/BlakvGhost/futura-vision-api"
             }
         ],
@@ -92,7 +92,7 @@
                 "pic": "https://github.com/BlakvGhost/Neptune/raw/main/screenshot.png",
                 "name": "Neptune",
                 "desc": "Neptune est une application web de gestion de stock avec système de facturation automatique, gestion des stocks des différentes boutiques conçu en CodeIngniter4 & VanillaJS & JQuery",
-                "link": "http://neptune-app.42web.io/",
+                "link": "https://neptune.kabirou-alassane.com/",
                 "git": "https://github.com/BlakvGhost/Neptune"
             }
         ],
@@ -101,7 +101,7 @@
                 "pic": "https://github.com/BlakvGhost/gGallery/raw/main/screenshot-home.png",
                 "name": "gGallery",
                 "desc": "Une petite application web écrite en PHP fonctionnant comme une galerie web, pour stocker des images, des vidéos, des documents... avec un système d'envoi sans recharger la page.",
-                "link": "https://g-gallery.42web.io",
+                "link": "https://g-gallery.kabirou-alassane.com",
                 "git": "https://github.com/BlakvGhost/gGallery"
             }
         ],
