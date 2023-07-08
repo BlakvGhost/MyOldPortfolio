@@ -1,0 +1,28 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "https://kabirou-alassane.com/"
+    },
+    {
+      "source": "",
+      "destination": "https://kabirou-alassane.com/"
+    },
+    {
+      "source": "/index.html",
+      "destination": "https://kabirou-alassane.com/"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://kabirou-alassane.com/",
+      "statusCode": 301
+    },
+    {
+      "source": "/index.html",
+      "destination": "https://kabirou-alassane.com/",
+      "statusCode": 301
+    }
+  ]
+}
