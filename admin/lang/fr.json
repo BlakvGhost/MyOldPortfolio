@@ -70,6 +70,22 @@
                 "link": "https://gtube.kabirou-alassane.com/",
                 "git": "https://github.com/BlakvGhost/gTube"
             } 
+        ],        
+        "PHP": [
+            {
+                "pic": "https://raw.githubusercontent.com/BlakvGhost/Bravo/master/public/favicon.ico",
+                "name": "Bravo MVC Framework",
+                "desc": "Bravo est un projet personnel, un mini framework MVC en PHP que j'ai développé en puisant les meilleurs points de Laravel, Symfony et du côté Node.js. J'aime la simplicité, j'ai donc décidé de faire un produit simple. Pour le moment, je gère la Route, les middlewares, le CORS, l'envoi facile de mails, ainsi qu'un mini ORM.",
+                "link": "https://github.com/BlakvGhost/Bravo#readme",
+                "git": "https://github.com/BlakvGhost/Bravo"
+            },
+            {
+                "pic": "https://raw.githubusercontent.com/BlakvGhost/Bravo/master/public/favicon.ico",
+                "name": "Bravo-mailer",
+                "desc": "Bravo-mailer est un projet, une mini plateforme web d'envoi de mail à l'aide d'une API fournie. L'idée m'est venue lorsque je développais mon Portfolio statique.",
+                "link": "https://bravo.kabirou-alassane.com",
+                "git": "https://github.com/BlakvGhost/bravo-mailer"
+            }
         ],
         "Laravel": [
             {
@@ -94,15 +110,6 @@
                 "desc": "Neptune est une application web de gestion de stock avec système de facturation automatique, gestion des stocks des différentes boutiques conçu en CodeIngniter4 & VanillaJS & JQuery",
                 "link": "https://neptune.kabirou-alassane.com/",
                 "git": "https://github.com/BlakvGhost/Neptune"
-            }
-        ],
-        "PHP": [
-            {
-                "pic": "https://github.com/BlakvGhost/gGallery/raw/main/screenshot-home.png",
-                "name": "gGallery",
-                "desc": "Une petite application web écrite en PHP fonctionnant comme une galerie web, pour stocker des images, des vidéos, des documents... avec un système d'envoi sans recharger la page.",
-                "link": "https://g-gallery.kabirou-alassane.com",
-                "git": "https://github.com/BlakvGhost/gGallery"
             }
         ],
         "VueJS/Angular": [
