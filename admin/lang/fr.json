@@ -55,22 +55,6 @@
                 "git": "https://github.com/BlakvGhost/web-task-automatisation"
             }
         ],
-        "Python/Django": [
-            {
-                "pic": "https://github.com/BlakvGhost/PIL1_2223_34/raw/main/screenshot.png",
-                "name": "WebP2MS",
-                "desc": "WebP2MS (Web Platform for Managing and Monitoring Schedules) est une application web de gestion des emplois du temps pour établissement d'enseignement supérieur.",
-                "link": "https://webp2ms.kabirou-alassane.com/",
-                "git": "https://github.com/BlakvGhost/PIL1_2223_34"
-            },
-            {
-                "pic": "https://github.com/BlakvGhost/gTube/raw/main/screenshot.png",
-                "name": "gTube",
-                "desc": "Une petite application web pour télécharger des vidéos youtube dans divers formats qui fonctionne un peu comme le fameux savefrom.net",
-                "link": "https://gtube.kabirou-alassane.com/",
-                "git": "https://github.com/BlakvGhost/gTube"
-            } 
-        ],        
         "PHP": [
             {
                 "pic": "https://raw.githubusercontent.com/BlakvGhost/Bravo/master/public/favicon.ico",
@@ -87,22 +71,22 @@
                 "git": "https://github.com/BlakvGhost/bravo-mailer"
             }
         ],
-        "Laravel": [
+        "Python/Django": [
             {
-                "pic": "https://github.com/BlakvGhost/gMarket/raw/main/screenshot.png",
-                "name": "gMarket",
-                "desc": "Site e-commerce de vente de matériel numérique conçu en Laravel 8 & VanillaJS avec CMS intégré",
-                "link": "https://g-market.kabirou-alassane.com",
-                "git": "https://github.com/BlakvGhost/gMarket"
+                "pic": "https://github.com/BlakvGhost/PIL1_2223_34/raw/main/screenshot.png",
+                "name": "WebP2MS",
+                "desc": "WebP2MS (Web Platform for Managing and Monitoring Schedules) est une application web de gestion des emplois du temps pour établissement d'enseignement supérieur.",
+                "link": "https://webp2ms.kabirou-alassane.com/",
+                "git": "https://github.com/BlakvGhost/PIL1_2223_34"
             },
             {
-                "pic": "https://github.com/BlakvGhost/futura-vision-api/raw/main/screenshot.png",
-                "name": "Futura-Vision API",
-                "desc": "API REST écrite en Laravel pour l'application futuraVision avec système de jeton d'authentification.",
-                "link": "https://futura-vision-api.kabirou-alassane.com",
-                "git": "https://github.com/BlakvGhost/futura-vision-api"
-            }
-        ],
+                "pic": "https://github.com/BlakvGhost/gTube/raw/main/screenshot.png",
+                "name": "gTube",
+                "desc": "Une petite application web pour télécharger des vidéos youtube dans divers formats qui fonctionne un peu comme le fameux savefrom.net",
+                "link": "https://gtube.kabirou-alassane.com/",
+                "git": "https://github.com/BlakvGhost/gTube"
+            } 
+        ],        
         "CodeIngniter": [
             {
                 "pic": "https://github.com/BlakvGhost/Neptune/raw/main/screenshot.png",
@@ -119,13 +103,22 @@
                 "desc": "Site vitrine développé en vue.js fonctionnant avec une API Laravel avec Blog & Forum intégrés ainsi qu'un CMS",
                 "link": "https://futura-vision.vercel.app/",
                 "git": "https://github.com/BlakvGhost/futura-vision"
+            }
+        ],        
+        "Laravel": [
+            {
+                "pic": "https://github.com/BlakvGhost/gMarket/raw/main/screenshot.png",
+                "name": "gMarket",
+                "desc": "Site e-commerce de vente de matériel numérique conçu en Laravel 8 & VanillaJS avec CMS intégré",
+                "link": "https://g-market.kabirou-alassane.com",
+                "git": "https://github.com/BlakvGhost/gMarket"
             },
             {
-                "pic": "https://github.com/BlakvGhost/Portefolio/raw/main/screenshot.png",
-                "name": "Mon Portfolio",
-                "desc": "C'est ce même portfolio qui illustre mes compétences de développeur web & mobile full stack",
-                "link": "https://github.com/BlakvGhost/Portefolio",
-                "git": "https://github.com/BlakvGhost/Portefolio"
+                "pic": "https://github.com/BlakvGhost/futura-vision-api/raw/main/screenshot.png",
+                "name": "Futura-Vision API",
+                "desc": "API REST écrite en Laravel pour l'application futuraVision avec système de jeton d'authentification.",
+                "link": "https://futura-vision-api.kabirou-alassane.com",
+                "git": "https://github.com/BlakvGhost/futura-vision-api"
             }
         ]
     }
