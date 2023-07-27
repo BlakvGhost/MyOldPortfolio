@@ -21,7 +21,7 @@
             "desc": "Conception de site web de vitrine, de blog, forum..."
         },
         {
-            "picClass": "fa-android",
+            "picClass": "fa-brands fa-android",
             "title": "Developpeur Android",
             "desc": "Application PWA & Native sous Kotlin ou Hybride sous Ionic..."
         },
@@ -31,7 +31,7 @@
             "desc": "Conception de logo d'entreprise, de maquette d'application web & mobile..."
         },
         {
-            "picClass": "fa-github",
+            "picClass": "fa-brands fa-github",
             "title": "Web Application",
             "desc": "Conception d'application Web en Front-end + Backend"
         }

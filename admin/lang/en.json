@@ -21,7 +21,7 @@
             "desc": "Design of showcase website, blog, forum..."
         },
         {
-            "picClass": "fa-android",
+            "picClass": "fa-brands fa-android",
             "title": "Android Developer",
             "desc": "PWA & Native application under Kotlin or Hybrid under Ionic..."
         },
@@ -31,7 +31,7 @@
             "desc": "Design of company logo, web & mobile application mockup..."
         },
         {
-            "picClass": "fa-github",
+            "picClass": "fa-brands fa-github",
             "title": "Web Application",
             "desc": "Front-end + Backend web application Development"
         }
