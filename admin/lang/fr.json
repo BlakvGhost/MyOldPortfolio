@@ -64,11 +64,11 @@
                 "git": "https://github.com/BlakvGhost/gTube"
             },
             {
-                "pic": "https://github.com/BlakvGhost/LtnConduiteApp/raw/main/screenshot.png",
-                "name": "LTN CONDUITE",
-                "desc": "Une petite application web conçue pour la première fois pour le compte du Lycée Technique de Natitingou pour le vote des conduites par les professeurs pour chaque classe. Il est principalement écrit avec le framework Django et en utilisant JQuery in Front.",
-                "link": "https://ltnconduite.kabirou-alassane.com/",
-                "git": "https://github.com/BlakvGhost/LtnConduiteApp"
+                "pic": "https://github.com/BlakvGhost/PIL1_2223_34/raw/main/screenshot.png",
+                "name": "WebP2MS",
+                "desc": "WebP2MS (Web Platform for Managing and Monitoring Schedules) est une application web de gestion des emplois.",
+                "link": "https://webp2ms.kabirou-alassane.com/",
+                "git": "https://github.com/BlakvGhost/PIL1_2223_34"
             }
         ],
         "Laravel": [
