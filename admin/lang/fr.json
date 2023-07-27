@@ -57,19 +57,19 @@
         ],
         "Python/Django": [
             {
+                "pic": "https://github.com/BlakvGhost/PIL1_2223_34/raw/main/screenshot.png",
+                "name": "WebP2MS",
+                "desc": "WebP2MS (Web Platform for Managing and Monitoring Schedules) est une application web de gestion des emplois du temps pour établissement d'enseignement supérieur.",
+                "link": "https://webp2ms.kabirou-alassane.com/",
+                "git": "https://github.com/BlakvGhost/PIL1_2223_34"
+            },
+            {
                 "pic": "https://github.com/BlakvGhost/gTube/raw/main/screenshot.png",
                 "name": "gTube",
                 "desc": "Une petite application web pour télécharger des vidéos youtube dans divers formats qui fonctionne un peu comme le fameux savefrom.net",
                 "link": "https://gtube.kabirou-alassane.com/",
                 "git": "https://github.com/BlakvGhost/gTube"
-            },
-            {
-                "pic": "https://github.com/BlakvGhost/PIL1_2223_34/raw/main/screenshot.png",
-                "name": "WebP2MS",
-                "desc": "WebP2MS (Web Platform for Managing and Monitoring Schedules) est une application web de gestion des emplois.",
-                "link": "https://webp2ms.kabirou-alassane.com/",
-                "git": "https://github.com/BlakvGhost/PIL1_2223_34"
-            }
+            } 
         ],
         "Laravel": [
             {
