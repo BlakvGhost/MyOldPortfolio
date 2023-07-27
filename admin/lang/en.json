@@ -46,6 +46,22 @@
                 "git": "https://github.com/BlakvGhost/FuturaJS"
             }
         ],
+        "PHP": [
+            {
+                "pic": "https://raw.githubusercontent.com/BlakvGhost/Bravo/master/public/favicon.ico",
+                "name": "Bravo MVC Framework",
+                "desc": "Bravo is a personal project, a mini MVC framework in PHP that I developed while drawing the best points from Laravel, Symfony and the Node.js side. I like simplicity, so I decided to make a simple product. For the moment, I manage the Route, the middlewares, the CORS, the easy sending of mails, as well as a mini ORM.",
+                "link": "https://github.com/BlakvGhost/Bravo#readme",
+                "git": "https://github.com/BlakvGhost/Bravo"
+            },
+            {
+                "pic": "https://raw.githubusercontent.com/BlakvGhost/Bravo/master/public/favicon.ico",
+                "name": "Bravo-mailer",
+                "desc": "Bravo-mailer is a project, a mini web platform for sending mail using an API provided. The idea came to me when I was developing my static Portfolio",
+                "link": "https://bravo.kabirou-alassane.com",
+                "git": "https://github.com/BlakvGhost/bravo-mailer"
+            }
+        ],
         "TypeScript": [
             {
                 "pic": "https://res.cloudinary.com/practicaldev/image/fetch/s--2ZfVeb_e--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/uf3a8y7xh8aroo95qocz.jpg",
@@ -57,18 +73,36 @@
         ],
         "Python/Django": [
             {
+                "pic": "https://github.com/BlakvGhost/PIL1_2223_34/raw/main/screenshot.png",
+                "name": "WebP2MS",
+                "desc": "This project is a web application for managing timetables for a higher education institution.",
+                "link": "https://webp2ms.kabirou-alassane.com/",
+                "git": "https://github.com/BlakvGhost/PIL1_2223_34"
+            },
+            {
                 "pic": "https://github.com/BlakvGhost/gTube/raw/main/screenshot.png",
                 "name": "gTube",
                 "desc": "A small web application for downloading youtube videos in various formats that works a bit like the famous savefrom.net",
                 "link": "https://gtube.kabirou-alassane.com/",
                 "git": "https://github.com/BlakvGhost/gTube"
-            },
+            }
+        ],        
+        "CodeIngniter": [
             {
-                "pic": "https://github.com/BlakvGhost/LtnConduiteApp/raw/main/screenshot.png",
-                "name": "LTN CONDUITE",
-                "desc": "A small web application designed for the first time on behalf of the Lycée Technique de Natitingou for the vote of the pipes by the teachers for each class. It is mainly written with the Django framework and using JQuery in Front.",
-                "link": "https://ltnconduiteapp.pythonanywhere.com/",
-                "git": "https://github.com/BlakvGhost/LtnConduiteApp"
+                "pic": "https://github.com/BlakvGhost/Neptune/raw/main/screenshot.png",
+                "name": "Neptune",
+                "desc": "Neptune is a stock management web application with automatic invoicing system, stock management of the different shops designed in CodeIngniter4 & VanillaJS & JQuery",
+                "link": "https://neptune.kabirou-alassane.com/",
+                "git": "https://github.com/BlakvGhost/Neptune"
+            }
+        ],
+        "VueJS/Angular": [
+            {
+                "pic": "https://github.com/BlakvGhost/futura-vision/raw/main/screenshot.png",
+                "name": "Futura-Vision",
+                "desc": "Showcase site developed in vue.js working with a Laravel API with integrated Blog & Forum as well as a CMS",
+                "link": "https://futura-vision.vercel.app/",
+                "git": "https://github.com/BlakvGhost/futura-vision"
             }
         ],
         "Laravel": [
@@ -85,40 +119,6 @@
                 "desc": "REST API written in Laravel for the futuraVision app with authentication token system.",
                 "link": "https://g-market.kabirou-alassane.com",
                 "git": "https://github.com/BlakvGhost/futura-vision-api"
-            }
-        ],
-        "CodeIngniter": [
-            {
-                "pic": "https://github.com/BlakvGhost/Neptune/raw/main/screenshot.png",
-                "name": "Neptune",
-                "desc": "Neptune is a stock management web application with automatic invoicing system, stock management of the different shops designed in CodeIngniter4 & VanillaJS & JQuery",
-                "link": "https://neptune.kabirou-alassane.com/",
-                "git": "https://github.com/BlakvGhost/Neptune"
-            }
-        ],
-        "PHP": [
-            {
-                "pic": "https://github.com/BlakvGhost/gGallery/raw/main/screenshot-home.png",
-                "name": "gGallery",
-                "desc": "A small web application written in PHP working as a web gallery, to store images, videos, documents... with a sending system without reloading the page.",
-                "link": "https://g-gallery.kabirou-alassane.com",
-                "git": "https://github.com/BlakvGhost/gGallery"
-            }
-        ],
-        "VueJS/Angular": [
-            {
-                "pic": "https://github.com/BlakvGhost/futura-vision/raw/main/screenshot.png",
-                "name": "Futura-Vision",
-                "desc": "Showcase site developed in vue.js working with a Laravel API with integrated Blog & Forum as well as a CMS",
-                "link": "https://futura-vision.vercel.app/",
-                "git": "https://github.com/BlakvGhost/futura-vision"
-            },
-            {
-                "pic": "https://github.com/BlakvGhost/Portefolio/raw/main/screenshot.png",
-                "name": "My Portfolio",
-                "desc": "It is this same portfolio that illustrates my skills as a full stack web & mobile developer.",
-                "link": "https://github.com/BlakvGhost/Portefolio",
-                "git": "https://github.com/BlakvGhost/Portefolio"
             }
         ]
     }
