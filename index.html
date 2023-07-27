@@ -8,7 +8,7 @@
     content="Je suis un développeur full stack web et mobile avec une expertise dans les technologies telles que Vue.js, Angular, NodeJS, Laravel, CodeIgniter, Django, Android, Flutter, TS et C#.">
   <meta name="keywords"
     content="développeur full stack, développeur web, développeur mobile, Vue.js, Angular, NodeJS, Laravel, CodeIgniter, Django, Android, Flutter, TS, C#">
-  <meta name="author" content="Kabirou ALASSANE"/>
+  <meta name="author" content="Kabirou ALASSANE" />
   <title>Kabirou ALASSANE | Développeur full stack web et mobile</title>
   <link rel="apple-touch-icon" sizes="57x57" href="assets/ico/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="assets/ico/apple-icon-60x60.png">
@@ -32,9 +32,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
-    integrity="sha512-i8+QythOYyQke6XbStjt9T4yQHhhM+9Y9yTY1fOxoDQwsQpKMEpIoSQZ8mVomtnVCf9PBvoQDnKl06gGOOD19Q=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="assets/css/templatemo-style.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.0/axios.min.js"
     integrity="sha512-OdkysyYNjK4CZHgB+dkw9xQp66hZ9TLqmS2vXaBrftfyJeduVhyy1cOfoxiKdi4/bfgpco6REu6Rb+V2oVIRWg=="
@@ -102,7 +100,7 @@
                   <a :href="`tel:` + data.phone"><i class="fa fa-phone"></i></a>
                 </li>
                 <li v-for="k in data.social">
-                  <a :href="k.url" :title="k.name"><i :class="`fa fa-${k.name.toLowerCase()}`"></i></a>
+                  <a :href="k.url" :title="k.name"><i :class="`fa-brands fa-${k.name.toLowerCase()}`"></i></a>
                 </li>
               </ul>
             </div>
@@ -138,13 +136,15 @@
             <div class="line-dec"></div>
             <span class="revealElement caveat"> {{ data.sectionTDesc }} </span>
           </div>
-          <div>
-            <div class="revealElement" v-for="t in data.technologies" :key="t">
-              <h4>{{ t.name }}</h4>
-              <div class="progress my-2">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" :class="t.colorClass"
-                  role="progressbar" :style="`width: ${t.skill}%`" :aria-valuenow="t.skill" aria-valuemin="0"
-                  aria-valuemax="100"></div>
+          <div class="container-fluid">
+            <div class="row row-cols-2 row-cols-lg-3">
+              <div class="revealElement p-2" v-for="t in data.technologies" :key="t">
+                <div class="card shadow text-center" :class="t.colorClass">
+                  <div class="card-body">
+                    <div class="fa fa-4x mb-3 text-center fa-brands" :class="t.skill"></div>
+                    <h5 class="card-title">{{ t.name }}</h5>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -229,19 +229,21 @@
             <span class="caveat"> {{ data.section5Desc }} </span>
           </div>
           <div class="row row-wrap">
-            <div class="col-12 col-sm-6 card bg-transparent shadow-none border-0 my-3 overflow-hidden" v-for="blog in data.blogs" :key="blog">
+            <div class="col-12 col-sm-6 card bg-transparent shadow-none border-0 my-3 overflow-hidden"
+              v-for="blog in data.blogs" :key="blog">
               <div class="card-head rounded-top overflow-hidden">
                 <div class="w-100" style="height: 150px;">
                   <img :src="blog.cover" :alt="blog.title" class="w-100 h-100">
                 </div>
               </div>
-              
+
               <div class="card-body shadow text-dark bg-light rounded-bottom">
                 <h4 class="text-dark"> {{ blog.title }} </h4>
                 <h5>Posted at {{ blog.date }} on <span class="text-primary"> {{ blog.plateform }} </span> </h5>
                 <a target="_blank" :href="blog.url" class="btn btn-dark my-2 w-50"> Read </a>
                 <div class="my-2 row">
-                  <button class="btn btn-outline-success m-2 col col-3" v-for="type in blog.types" :key="type" :title="type"> {{ type }} </button>
+                  <button class="btn btn-outline-success m-2 col col-3" v-for="type in blog.types" :key="type"
+                    :title="type"> {{ type }} </button>
                 </div>
               </div>
             </div>

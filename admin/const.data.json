@@ -27,53 +27,63 @@
     "technologies": [
         {
             "name": "JavaScript",
-            "skill": "80",
+            "skill": "fa-square-js",
             "colorClass": "bg-success"
         },
         {
             "name": "TypeScript",
-            "skill": "68",
+            "skill": "fa-js",
             "colorClass": "bg-info"
         },
         {
             "name": "Vue.js",
-            "skill": "70",
+            "skill": "fa-vuejs",
             "colorClass": "bg-primary"
         },
         {
             "name": "Angular.js",
-            "skill": "55",
+            "skill": "fa-angular",
             "colorClass": "bg-danger"
         },
         {
             "name": "Node.js",
-            "skill": "60",
+            "skill": "fa-node-js",
             "colorClass": "bg-warning"
         },
         {
             "name": "PHP",
-            "skill": "70",
+            "skill": "fa-php",
             "colorClass": "bg-success"
         },
         {
             "name": "Laravel",
-            "skill": "60",
+            "skill": "fa-laravel",
             "colorClass": "bg-info"
         },
         {
             "name": "Python/Django",
-            "skill": "80",
+            "skill": "fa-python",
             "colorClass": "bg-primary"
         },
         {
-            "name": "Kotlin",
-            "skill": "40",
+            "name": "Java",
+            "skill": "fa-java",
             "colorClass": "bg-danger"
         },
         {
             "name": "Ionic",
-            "skill": "55",
+            "skill": "fa-android",
             "colorClass": "bg-warning"
+        },
+        {
+            "name": "Figma",
+            "skill": "fa-figma",
+            "colorClass": "bg-info"
+        },
+        {
+            "name": "wordpress",
+            "skill": "fa-wordpress",
+            "colorClass": "bg-primary"
         }
     ],
     "blogs": [
