@@ -4,8 +4,8 @@
     "profilePic": "assets/images/self.JPG",
     "social": [
         {
-            "name": "Facebook",
-            "url": "https://www.facebook.com/g4l1l30.77/"
+            "name": "WhatsApp",
+            "url": "https://wa.me/22995181019"
         },
         {
             "name": "Twitter",
@@ -26,16 +26,6 @@
     ],
     "technologies": [
         {
-            "name": "JavaScript",
-            "skill": "fa-square-js",
-            "colorClass": "bg-success"
-        },
-        {
-            "name": "TypeScript",
-            "skill": "fa-js",
-            "colorClass": "bg-info"
-        },
-        {
             "name": "Vue.js",
             "skill": "fa-vuejs",
             "colorClass": "bg-primary"
@@ -51,11 +41,6 @@
             "colorClass": "bg-warning"
         },
         {
-            "name": "PHP",
-            "skill": "fa-php",
-            "colorClass": "bg-success"
-        },
-        {
             "name": "Laravel",
             "skill": "fa-laravel",
             "colorClass": "bg-info"
@@ -64,11 +49,6 @@
             "name": "Python/Django",
             "skill": "fa-python",
             "colorClass": "bg-primary"
-        },
-        {
-            "name": "Java",
-            "skill": "fa-java",
-            "colorClass": "bg-danger"
         },
         {
             "name": "Ionic",
