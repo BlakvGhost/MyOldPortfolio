@@ -4,36 +4,36 @@
     "sectionTTitle": "Mes Technologies",
     "sectionTDesc": "Quelques technologies/frameworks que j'utilise pour la réalisation des projets",
     "section2Title": "Je suis bon en Quoi ?",
-    "section2Desc": "J'ai suivi des formations professionnel ainsi qu'une application des domaines suivants",
-    "section3Title": "Mes Realisations",
-    "section3Desc": "Voici quelques projets realisés dernierement, Veuillez consulter mon dépot GitHub pour avoir la totalité de mes projets.",
+    "section2Desc": "Mes Compétences et Services Offerts",
+    "section3Title": "Mes Réalisations",
+    "section3Desc": "Voici quelques projets realisés dernièrement, Veuillez consulter mon dépot GitHub pour avoir la totalité de mes projets open source.",
     "section4Title": "Me Contacter",
-    "section4Desc": "Veuillez renseignez le formulaire suivant pour me contacter",
+    "section4Desc": "Veuillez renseigner le formulaire suivant pour me contacter",
     "section5Title": "Blog",
-    "section5Desc": "J'ecris des articles sur la tech et la programmation informatique sur DevTo et Medium. Decouvrez ici mes latest articles",
+    "section5Desc": "J'écris des articles sur la tech et la programmation informatique sur DevTo et Médium. Découvrez ici mes latest articles",
     "resumeTitle": "Télécharger Mon CV",
     "job": "Développeur d'application web & mobile",
     "about": "<p><p>Bonjour et bienvenue sur mon portefolio ! Je suis Kabirou ALASSANE, un développeur passionné et créatif spécialisé dans la conception et le développement d'applications web et mobiles.</p><p>Mon voyage dans le monde du développement a commencé il y a plusieurs années, et depuis lors, je suis tombé amoureux de la possibilité infinie de créer des solutions numériques innovantes qui résolvent des problèmes du quotidien. Je crois fermement que la technologie peut véritablement améliorer notre qualité de vie et transformer la façon dont nous interagissons avec le monde qui nous entoure.</p><p>Avec une solide formation en informatique et une expérience pratique dans un large éventail de technologies, je suis constamment à l'affût des dernières tendances et des meilleures pratiques du développement. Mon approche est centrée sur l'utilisateur, en plaçant les besoins et les attentes de l'utilisateur final au cœur de chaque projet que j'entreprends. Que ce soit une application web conviviale, une interface mobile intuitive ou une expérience utilisateur captivante, mon objectif est de créer des produits numériques qui laissent une impression durable.</p><p>Je suis particulièrement compétent dans les langages de programmation tels que JavaScript, Python et PHP, et j'ai une expertise dans les frameworks populaires tels que Vuejs, Angular, Laravel et Django. J'ai également une expérience approfondie dans la conception de bases de données, la gestion des serveurs et le déploiement d'applications dans des environnements cloud.</p><p>Travailler en équipe est pour moi une source de motivation et d'inspiration. J'ai eu le privilège de collaborer avec des professionnels talentueux de divers domaines, ce qui m'a permis d'acquérir des compétences en communication et en gestion de projet essentielles pour atteindre les objectifs fixés dans les délais impartis.</p><p>Dans mon temps libre, vous me trouverez souvent en train de participer à des hackathons, des conférences technologiques ou des meetups pour rester connecté à la communauté des développeurs et pour nourrir ma passion pour l'apprentissage continu.</p><p>Je suis impatient de discuter avec vous de vos projets et de la façon dont nous pouvons collaborer pour donner vie à vos idées. N'hésitez pas à parcourir mon portefolio pour découvrir certains de mes projets passés et n'hésitez pas à me contacter si vous souhaitez en savoir plus.</p><p>Merci de visiter mon portefolio, et j'espère avoir l'occasion de travailler ensemble !</p> </p>",
     "knowledge": [
         {
             "picClass": "fa-code",
-            "title": "Conception de site Web",
-            "desc": "Conception de site web de vitrine, de blog, forum..."
+            "title": "Conception de site & application Web",
+            "desc": "Conception de site web de vitrine, de blog, ou d'application personnalisé sur-mesure"
         },
         {
             "picClass": "fa-brands fa-android",
-            "title": "Developpeur Android",
+            "title": "Développement mobile",
             "desc": "Application PWA & Native sous Kotlin ou Hybride sous Ionic..."
         },
         {
             "picClass": "fa-pencil",
-            "title": "UX/UI",
+            "title": "UI/UX",
             "desc": "Conception de logo d'entreprise, de maquette d'application web & mobile..."
         },
         {
-            "picClass": "fa-brands fa-github",
-            "title": "Web Application",
-            "desc": "Conception d'application Web en Front-end + Backend"
+            "picClass": "fa-brands fa-youtube",
+            "title": "Création de contenu YouTube",
+            "desc": "Je réalise des tutoriels youtube sur la programmation informatique ou des astuces concernant les OS Linux"
         }
     ],
     "works": {
